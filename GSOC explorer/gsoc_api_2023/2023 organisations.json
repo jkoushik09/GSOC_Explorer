@@ -1,0 +1,1144 @@
+{
+"Sheet1":[
+ {
+  "id": 1,
+  "organisation_name": "gprMax",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/gprmax",
+  "organisation_tag": "Simulating electromagnetic wave propagation",
+  "organisation_technologies": "python, cuda, openmp, mpi, opencl",
+  "organisation_topics": "science, engineering, geophysics, electromagnetics, ground penetrating radar",
+  "organisation_website": "https:\/\/www.gprmax.com",
+  "organisation_description": "gprMax is open source software that simulates electromagnetic wave propagation. It uses Yee's algorithm to solve Maxwell’s equations in 3D using the Finite-Difference Time-Domain (FDTD) method.\n\nIt is designed for simulating Ground Penetrating Radar (GPR) and is used to model electromagnetic wave propagation in fields such as engineering, geophysics, archaeology, and medicine. There are a wide range of applications from assessing infrastructure such as bridges and roads, locating buried utilities, mapping glaciers, finding anti-personnel landmines, to detecting tumours in the human body, and exploring the sub-surface of Mars and the Moon.\n\ngprMax is command-line-driven software written in Python with performance-critical parts written in Cython. It does not currently feature a graphical user interface (GUI) which allows it to be very flexible and scriptable software that can run in high-performance computing (HPC) environments, i.e. on supercomputers.\n\ngprMax can be run on either CPU or GPU. The CPU solver has been parallelised using OpenMP which enables it to run on multi-core CPUs. The GPU solver has been developed using the NVidIA CUDA programming model. gprMax also features a Messaging Passing Interface (MPI) task farm, which can operate with CPU nodes or multiple GPUs."
+ },
+ {
+  "id": 2,
+  "organisation_name": "GRAME",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/grame",
+  "organisation_tag": "Domain specific language for audio",
+  "organisation_technologies": "c, python, javascript, c++, typescript",
+  "organisation_topics": "audio, compiler, digital signal processing, function programming language",
+  "organisation_website": "https:\/\/faust.grame.fr",
+  "organisation_description": "We develop Faust (Functional Audio Stream), a functional programming language for sound synthesis and audio processing with a strong focus on the design of synthesizers, musical instruments, audio effects, etc. Faust targets high-performance signal processing applications and audio plug-ins for a variety of platforms and standards."
+ },
+ {
+  "id": "3",
+  "organisation_name": "Haiku",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/haiku",
+  "organisation_tag": "Operating system that targets personal computing.",
+  "organisation_technologies": "c++, posix, unix",
+  "organisation_topics": "desktop, kernel, network, media, gui",
+  "organisation_website": "https:\/\/www.haiku-os.org",
+  "organisation_description": "Haiku is a fast, efficient, easy to use and lean open source operating system inspired by the BeOS that specifically targets personal computing.\n\nHaiku is not a Linux distribution, nor does it use the Linux kernel. Haiku is the spiritual successor to BeOS and it is derived from the NewOS kernel, which was authored by Travis Geiselbrecht (geist), who was formerly employed by Be Inc. — the developers of BeOS.\n\nLinux-based distributions stack up software – the Linux kernel, the X Window System, and various DEs with disparate toolkits such as GTK+ and Qt – that do not necessarily share the same guidelines and\/or goals. This lack of consistency and overall vision manifests itself in increased complexity, insufficient integration, and inefficient solutions, making the use of your computer more complicated than it should actually be.\n\nInstead, Haiku has a single focus on personal computing and is driven by a unified vision for the whole OS. That, we believe, enables Haiku to provide a leaner, cleaner and more efficient system capable of providing a better user experience that is simple and uniform throughout."
+ },
+ {
+  "id": "4",
+  "organisation_name": "INCF",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/incf",
+  "organisation_tag": "An open & FAIR neuroscience standards organization",
+  "organisation_technologies": "python, javascript, java, c++, gpu",
+  "organisation_topics": "machine learning, data visualization, neuroscience, brain modelling, neuroimage processing",
+  "organisation_website": "https:\/\/www.incf.org",
+  "organisation_description": "The International Neuroinformatics Coordinating Facility (INCF; www.incf.org) is an international organization launched in 2005, following a proposal from the Global Science Forum of the OECD. \n\nINCF was established to facilitate and promote the sharing of data and computing resources in the international neuroscience community.  A larger objective of INCF is to help develop scalable, portable, and extensible applications that can be used by neuroscience laboratories worldwide. \n\nThe mission of INCF is to make neuroscience FAIR (Findable, Accessible, Interoperable and Reusable) by sharing and integrating neuroscience data and knowledge worldwide. We foster scientific community collaboration to develop standards for data sharing, analysis  modeling and simulation in order to catalyze insights into brain function in health and disease.\n\nINCF activities are open to all who can contribute to neuroinformatics at the international level. We have a global community of neuroscience researchers working on new and improved tools for all of neuroscience – enabling other researchers to make more and faster discoveries, and improving our understanding of the brain."
+ },
+ {
+  "id": "5",
+  "organisation_name": "Inkscape",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/inkscape",
+  "organisation_tag": "Draw freely!",
+  "organisation_technologies": "python, c++, svg",
+  "organisation_topics": "web, graphics, design",
+  "organisation_website": "https:\/\/inkscape.org",
+  "organisation_description": "Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in Scalable Vector Graphics (SVG) format"
+ },
+ {
+  "id": "6",
+  "organisation_name": "International Catrobat Association",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/international-catrobat-association",
+  "organisation_tag": "Free visual coding apps for computational thinking",
+  "organisation_technologies": "javascript, swift, kotlin, php, flutter",
+  "organisation_topics": "education, visual programming, mobile programming, game engines, creativity tools",
+  "organisation_website": "https:\/\/www.catrobat.org",
+  "organisation_description": "Computational thinking for all with free visual coding apps\nThe Catrobat project develops useful frameworks to create games, animations, or apps easily within a short time. This set of mobile creativity tools for smartphones is inspired by the well-known Scratch framework by the Lifelong Kindergarten Group at the MIT Media Lab. The motivation behind the project is that programming is an important cultural technique on the same level as mathematics and physics, from a practical as well as from a philosophical point of view. Our aim thus is to popularize the skills needed to program from an early age in a fun and engaging way that will facilitate the spread of its adoption among young people all over the world.\n\nOur awarded Android app “Pocket Code” is currently the most famous outcome of the project. Without the need for any further devices, users have the possibility to create their first program directly on their mobile device in just a few steps using visual \"Bricks\". Pocket Code supports all common device sensors, provides special \"Bricks\" for different robotic devices (Lego Mindstorms, Robotix Phiro, etc.) as well as for hardware devices such as the Arduino board or the Raspberry Pi, and of course offers elements of programming languages such as variables, if-statements, concurrency, etc. We also work on \"Pocket Code\" for iOS and on a large number of extensions. That’s why developers of different fields help us to keep our products up-to-date to meet the current needs of our users.\n\nMotivated by prizes (such as the Lovie Award, the Austrian National Innovation Award or the Re-Imagine Education Award) and being featured by different programs (like Google Play for Education or code.org), our team is working on many different subprojects and extensions. Over 500 developers already contributed to our project on different topics such as app development, web technologies, graphics, usability, internationalization, or design."
+ },
+ {
+  "id": "7",
+  "organisation_name": "Internet Archive",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/internet-archive",
+  "organisation_tag": "Universal Access to All Knowledge",
+  "organisation_technologies": "python, javascript, go, elasticsearch, hadoop",
+  "organisation_topics": "library, media, archiving",
+  "organisation_website": "http:\/\/archive.org",
+  "organisation_description": "The Internet Archive is a non-profit digital library.\n\nWe are the home of the Wayback Machine."
+ },
+ {
+  "id": "8",
+  "organisation_name": "Internet Health Report",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/internet-health-report",
+  "organisation_tag": "Monitoring the Internet",
+  "organisation_technologies": "python, javascript, apache kafka, VueJS",
+  "organisation_topics": "networking, routing, communication, internet, data analytics",
+  "organisation_website": "https:\/\/ihr.iijlab.net",
+  "organisation_description": "The Internet Health Report monitors the conditions of networks that compose the Internet. It aims to provide network operators, policymakers, and other stakeholders, with a better understanding of the Internet's infrastructure and its evolution."
+ },
+ {
+  "id": "9",
+  "organisation_name": "Invesalius",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/invesalius",
+  "organisation_tag": "3D Medical visualization and neuronavigation tool",
+  "organisation_technologies": "python, cython, numpy, dicom, Vtk",
+  "organisation_topics": "ehealth, medical imaging, 3D Reconstruction, 3d printing, Neuronavigation",
+  "organisation_website": "https:\/\/invesalius.github.io\/",
+  "organisation_description": "InVesalius is an Open Source organization that works developing free software for reconstruction of computed tomography and magnetic resonance images. The software is mainly used for rapid prototyping, teaching, forensics, and in the medical field. It is possible to use it on the Microsoft Windows, GNU\/Linux and Apple Mac OS X platforms. \n\nInVesalius main software started began their development on 2001 by Centro de Tecnologia da Informação Renato Archer (CTI), in Brazil, later it was released under GNU license and more practitioners joins the organization to improve their development.\n\nAt that time, there was no medical image software in Portuguese that fulfilled the Brazilian hospitals and clinics needs. Therefore, InVesalius came as a proposal of development with the aim to be a medical software image analysis with null acquisition cost, capability of execution on low-cost personal computers and the\ncapability of execution on different operating systems and act as a platform to encourage the use and development of medical images in Brazil."
+ },
+ {
+  "id": "10",
+  "organisation_name": "Ivy (lets-unify.ai)",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/ivy-lets-unifyai",
+  "organisation_tag": "All of AI, at your Fingertips.",
+  "organisation_technologies": "python, cython, tensorflow, pytorch, Jax",
+  "organisation_topics": "machine learning, artificial intelligence, computation graph, code conversion, unified API",
+  "organisation_website": "https:\/\/lets-unify.ai",
+  "organisation_description": "At Ivy, we are on a mission to unify all ML Frameworks.\n\nIvy makes it possible to add any function, library or model from any framework directly into any other framework, with one line of code.\n\nThis opens a new era of ML, where all frameworks are totally interoperable, once and for all.\n\nWe currently support for PyTorch, TensorFlow, Numpy and JAX."
+ },
+ {
+  "id": "11",
+  "organisation_name": "JdeRobot",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/jderobot",
+  "organisation_tag": "Toolkit for developing Robotics applications",
+  "organisation_technologies": "python, ros, gazebo, opencv, tensorflow",
+  "organisation_topics": "education, artificial intelligence, robotics, computer vision, developer tools",
+  "organisation_website": "http:\/\/jderobot.github.io",
+  "organisation_description": "Robotics applications are typically distributed, made up of a collection of concurrent asynchronous components which communicate using some middleware (ROS messages, DDS...). Building robotics applications is a complex task. Integrating existing nodes or libraries that provide already solved functionality, and using several tools may increase the software robustness and shorten the development time. JdeRobot provides several tools, libraries and reusable nodes. They have been written in C++, Python or JavaScript.\n\nOur community mainly works on four development areas:\n1.- Education in Robotics\n* RoboticsAcademy (https:\/\/jderobot.github.io\/RoboticsAcademy\/): a ROS-based framework to learn robotics and computer vision with drones, autonomous cars.... It is a collection of Python programmed exercises for engineering students. \n* Unibotics: a web based framework for teaching robotics.\n\n2.- Robot Programming Tools\t\n* VisualCircuit (https:\/\/jderobot.github.io\/VisualCircuit\/) for robot programming with connected blocks, as in electronic circuits, in a visual way\n* VisualStates for robot programming with Finite State Machines in a visual way\n* WebSim2D robot simulator with web technologies\n\n3.- MachineLearning in Robotics\n* DeepLearningSuite: neural networks for robot control. It includes the BehaviorMetrics tool for assessment of neural networks for autonomous driving\n* RL-Studio: Robotic library for the training of Reinforcement Learning algorithms\n* DetectionMetrics tool for evaluation of visual detection neural networks and algorithms\n\n4.- FPGAs in Robotics\n* FPGA-robotics (https:\/\/github.com\/JdeRobot\/FPGA-robotics): programming robots with reconfigurable computing (FPGAs) using open tools as IceStudio and Symbiflow. Verilog-based reusable blocks for robotics applications.\n* NeuralFPGA: running deeplearning networks on FPGAs"
+ },
+ {
+  "id": "12",
+  "organisation_name": "Jenkins",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/jenkins-wp",
+  "organisation_tag": "Jenkins, build great things at any scale",
+  "organisation_technologies": "javascript, java, go, docker, kubernetes",
+  "organisation_topics": "developer tools, automation, continuous integration, continuous delivery, devops",
+  "organisation_website": "https:\/\/jenkins.io\/",
+  "organisation_description": "Short description:\n\nJenkins is a popular open source automation server which is used for building, testing, CI\/CD, deployment and many other use-cases. Our motto is \"Build great things at any scale\".\n\nLong description:\n\nJenkins, originally founded in 2006 as \"Hudson\", is one of the leading automation servers. Jenkins' motto is \"Build great things at any scale\". Using an extensible, plugin-based architecture, developers have created hundreds of plugins to adapt Jenkins to a multitude of build, test, and deployment automation workloads. As Jenkins is open-source, MIT License is used for most of the components.\n\nThis year we invite potential GSoC contributors to join the Jenkins community and to work together to improve Jenkins. We have many strategic project ideas which are important to potentially hundreds of thousands of Jenkins users.\n\nThe project has over 600 active contributors working on Jenkins core, plugins, website, project infrastructure, localization activities, etc. In total we have more than 2,000 components including plugins, libraries, and various utilities. The main languages in the project are Java, Groovy and JavaScript, but we also have components written in other languages (Go, C\/C++, C#, etc.). Jenkins project includes multiple sub-projects (including Configuration-as-Code, Infrastructure and Remoting) and special interest groups. These entities participate in GSoC as a part of the Jenkins project.\n\nThe Jenkins project is a part of Continuous Delivery Foundation (CDF)."
+ },
+ {
+  "id": "13",
+  "organisation_name": "Jina AI",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/jina-ai-sb",
+  "organisation_tag": "Multimodal AI from the community, for everyone",
+  "organisation_technologies": "python, machine learning, microservices, data science, Multimodel AI",
+  "organisation_topics": "cloud native, neural search, generative AI, Python MLOps Framework, Mulitmodel Data",
+  "organisation_website": "https:\/\/jina.ai\/",
+  "organisation_description": "🚀 With GPT-4, multimodal AI is coming! Jina AI empowers businesses and developers to create top-notch multimodal AI services. \n\n\n🌐 Join our inclusive community for GSoC tasks and work with cutting-edge techs like LMOps and MLOps. 📎 https:\/\/jina.ai\/community\/\n\n\n👭 We will host a GSoC x Jina AI webinar on March 23rd, 14:00-15:00 PM (CET). Join us as our experienced mentors provide an in-depth overview of their GSoC projects and answer any questions you have about the project requirements and expectations. \n\n🔮  https:\/\/www.meetup.com\/jina-community-meetup\/events\/292210036\/"
+ },
+ {
+  "id": "14",
+  "organisation_name": "KDE Community",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/kde-community",
+  "organisation_tag": "International team developing Open Source software",
+  "organisation_technologies": "c++, qt, qml, data structures",
+  "organisation_topics": "education, science, applications, desktop environment",
+  "organisation_website": "https:\/\/kde.org\/",
+  "organisation_description": "Community of technologists, designers, writers and advocates who work to ensure freedom for all people through our software."
+ },
+ {
+  "id": "15",
+  "organisation_name": "Keploy",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/keploy",
+  "organisation_tag": "E2E test generation and mocking toolkit",
+  "organisation_technologies": "java, golang, node, MERN, epbf",
+  "organisation_topics": "API Testing, No code platform, Dev Tool, Functional Testing, Mock and Stubs Generation",
+  "organisation_website": "https:\/\/keploy.io",
+  "organisation_description": "An open-source simple e2e test generation toolkit for developers. Keploy creates test cases, data mocks, stubs from API calls, DB queries, etc. TestGPT that actually works!"
+ },
+ {
+  "id": "16",
+  "organisation_name": "Kiwix",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/kiwix",
+  "organisation_tag": "Internet content available offline.",
+  "organisation_technologies": "python, perl, c++, nodejs, kotlin",
+  "organisation_topics": "offline, browser, compression",
+  "organisation_website": "https:\/\/www.kiwix.org",
+  "organisation_description": "Kiwix provides copies of websites that can be browsed offline. We run scrapers that will crawl a given website and compress it into a single .zim archive (based on the openZIM format). \n\n\n\nThe zim files can then be stored locally and read on the fly by Kiwix in such a way that the user experience is similar to being online. \n\n\n\nWe can fit the entirety of Wikipedia on a regular Android phone, but there are more than 7,000 zim files available in 100+ languages, mostly focused on educational content (e.g. Wikipedia, StackOverflow, Khan Academy, etc.).\n\n\n\n\n\nKiwix runs on all platforms (Linux, Windows, Android, etc.) and has around 8 million users worldwide, in pretty much any place you can think of that has limited or no connectivity: prisons, rural schools, refugee camps, even Antarctic bases!\n\n\n\nOur big challenge is to make it as easy as possible to access or share offline content."
+ },
+ {
+  "id": "17",
+  "organisation_name": "Kotlin Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/kotlin-foundation",
+  "organisation_tag": "Advance the Kotlin programming language",
+  "organisation_technologies": "gradle, kotlin, jvm, Parsers & Compilers, Multiplatform",
+  "organisation_topics": "compilers, programming languages, software development, libraries, Programming & Build Tools",
+  "organisation_website": "https:\/\/kotlinfoundation.org\/",
+  "organisation_description": "Kotlin is a modern programming language that makes developers happier.\n\nJetBrains and Google are the current and founding members of the Kotlin Foundation. They work together to promote and advance the Kotlin language for many platforms, including Android, servers, iOS, and other targets. Today, 100+ people work on the core Kotlin project team at JetBrains & Google. There are an additional 350+ independent contributors to the core language and thousands contributing to the broader Kotlin ecosystem.\n\nThe Kotlin Foundation's responsibilities include:\n - Preservation the Kotlin trademarks\n - Appoint the Lead Language Designer\n - Control incompatible changes to the language"
+ },
+ {
+  "id": "18",
+  "organisation_name": "KubeVirt",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/kubevirt",
+  "organisation_tag": "Building a virtualization API for Kubernetes",
+  "organisation_technologies": "golang, grpc",
+  "organisation_topics": "virtualization, containers, kubernetes",
+  "organisation_website": "https:\/\/kubevirt.io",
+  "organisation_description": "KubeVirt is a virtual machine management extension for Kubenetes. It does this by adding virtualization resources through the Kubernetes Custom Resource Definition API.\n\nKubeVirt is a Cloud Native Computing Project (CNCF) incubating project."
+ },
+ {
+  "id": "19",
+  "organisation_name": "Learning Equality",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/learning-equality",
+  "organisation_tag": "Equity in education to transform lives",
+  "organisation_technologies": "python, javascript, django, vue.js",
+  "organisation_topics": "education, distributed databases, offline, learning",
+  "organisation_website": "https:\/\/learningequality.org\/",
+  "organisation_description": "Learning Equality is an education technology nonprofit that develops and maintains Kolibri, an adaptable set of open solutions specially designed to support teaching and learning with technology but without the Internet for the half of the world that still lacks access to connectivity.\nKolibri is centered around an offline-first learning platform that runs on a variety of low-cost and legacy devices. It is complemented by a curricular tool, a library of open educational materials, and a toolkit of resources to support training and implementation. These tools are open and available in a variety of languages, to better support learners and educators globally.\nAs a community-driven nonprofit, Learning Equality works closely to co-design Kolibri with a core network of collaborators, including national NGOs, UN agencies, government, and corporate partners. We also adopt a needs-based approach, constantly gathering insights from our community to inform the development of our tools. \nThrough its do-it-yourself adoption model and strategic collaborations, Kolibri has reached learners and educators in more than 220 countries and territories since its launch in 2017."
+ },
+ {
+  "id": "20",
+  "organisation_name": "libcamera",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/libcamera",
+  "organisation_tag": "Provide an open source camera stack for linux",
+  "organisation_technologies": "c\/c++, linux kernel, qt5, gstreamer, v4l2",
+  "organisation_topics": "camera, image prcessing",
+  "organisation_website": "https:\/\/libcamera.org",
+  "organisation_description": "Cameras are complex devices that need heavy hardware image processing operations. Control of the processing is based on advanced algorithms that must run on a programmable processor. This has traditionally been implemented in a dedicated MCU in the camera, but in embedded devices, algorithms have been moved to the main CPU to save cost. Blurring the boundary between camera devices and Linux often left the user with no other option than a vendor-specific closed-source solution.\n\nTo address this problem the Linux media community is collaborating with the industry to develop a camera stack that is open-source-friendly while still protecting vendor core IP. libcamera was born out of that collaboration and offers modern camera support to Linux-based systems, including traditional Linux distributions, ChromeOS and Android."
+ },
+ {
+  "id": "21",
+  "organisation_name": "LibreHealth",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/librehealth",
+  "organisation_tag": "Healthcare for Humanity",
+  "organisation_technologies": "python, javascript, android, java, dart\/flutter",
+  "organisation_topics": "web, deep learning, hfoss, radiology, mobile apps",
+  "organisation_website": "https:\/\/librehealth.io",
+  "organisation_description": "LibreHealth is the foundation of a worldwide ecosystem of open source Health IT innovation and is a place where people can come together to build tools that enhance the quality of healthcare around the world.\n\nWe currently have under our umbrella the following projects:\n\n- LibreHealth Toolkit (http:\/\/librehealth.io\/projects\/lh-toolkit\/), a foundational base for - building Health IT tools\n\n- LibreHealth EHR (http:\/\/librehealth.io\/projects\/lh-ehr\/), an electronic health record derived from best practices and technology from leading open source systems.\n\n- LibreHealth Radiology (https:\/\/librehealth.io\/projects\/lh-radiology), a specialized distribution of LibreHealth Toolkit customized for radiology healthcare professionals\n\nOur GSoC student projects will address the real-life needs of our projects to help improve the delivery of health care around the world. We have a team of expert mentors with decades of experience to help you in your work. They will be continually adding project ideas to our forum (https:\/\/forums.librehealth.io), and we encourage you to suggest ideas too as you learn more about our projects.\n\nCheck out project ideas (this will change from year to year): https:\/\/forums.librehealth.io\/ideas"
+ },
+ {
+  "id": "22",
+  "organisation_name": "LibreOffice",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/libreoffice",
+  "organisation_tag": "LibreOffice is a free and open source office suite",
+  "organisation_technologies": "python, java, c++",
+  "organisation_topics": "office suite, desktop application, end user application",
+  "organisation_website": "https:\/\/www.libreoffice.org\/",
+  "organisation_description": "LibreOffice is a modern Free & Open Source Office suite, one of the largest open source projects, and used by millions of users worldwide. LibreOffice is compatible with many file formats like Microsoft® Word, Excel, PowerPoint and Publisher. At its heart though, LibreOffice is built around an open standard, the OpenDocument Format, as its native file format.\nLibreOffice is developed by users who, just like you, believe in the principles of Free Software and in sharing their work with the world in non-restrictive ways. The development of LibreOffice is supported by The Document Foundation which provides the infrastructure for the project.\nWe believe that users should have the freedom to run, copy, distribute, study, change and improve the software that we distribute. While we do offer no-cost downloads of the LibreOffice suite of programs, Free Software is first and foremost a matter of liberty, not price. We campaign for these freedoms because we believe that everyone deserves them.\nThough the members of our community hail from many different backgrounds, we all value personal choice and transparency, which translates practically into wider compatibility, more utility, and no end-user lock-in to a single product. We believe that Free Software can provide better-quality, higher-reliability, increased-security, and greater-flexibility than proprietary alternatives. LibreOffice is a large project (approx. 6MLOC), which makes it interestingly complex, but at the same time, provides a place for all sorts of contribution & skills.\nThe community behind LibreOffice is the heart of the project, without which we would not have the resources to continue developing our software. The passion and drive that every individual brings to the community results in collaborative development that often exceeds our own expectations. With tons of different roles in the project, we invite everyone to join us in our work and help us to make LibreOffice known, prosper, and accessible to all."
+ },
+ {
+  "id": "23",
+  "organisation_name": "libssh",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/libssh",
+  "organisation_tag": "The SSH library",
+  "organisation_technologies": "c, ci, ssh",
+  "organisation_topics": "security, cryptography",
+  "organisation_website": "https:\/\/www.libssh.org\/",
+  "organisation_description": "This project is for programmers needing a working SSH implementation by the mean of a library. The complete control of the client is made by the programmer. With libssh, you can remotely execute programs, transfer files, use a secure and transparent tunnel for your remote programs. With its Secure FTP implementation, you can play with remote files easily, without third-party programs others than libcrypto (from openssl), libgcrypt or mbedTLS."
+ },
+ {
+  "id": "24",
+  "organisation_name": "libvirt",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/libvirt",
+  "organisation_tag": "Virtualization abstraction library",
+  "organisation_technologies": "kvm, hypervisor, qemu, lxc",
+  "organisation_topics": "virtualization, library",
+  "organisation_website": "https:\/\/libvirt.org\/",
+  "organisation_description": "Libvirt is a library and toolkit providing abstraction for various hypervisors. It can be used from a number of languages."
+ },
+ {
+  "id": "25",
+  "organisation_name": "Liquid Galaxy project",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/liquid-galaxy-project",
+  "organisation_tag": "We code immersive and interactive aps with G Earth",
+  "organisation_technologies": "linux, android, nodejs, flutter, Google Earth",
+  "organisation_topics": "visualization, artificial intelligence, networking, maps, ux",
+  "organisation_website": "https:\/\/www.liquidgalaxy.eu",
+  "organisation_description": "Liquid Galaxy is a remarkable panoramic system that is tremendously compelling. It started off as a Google 20% project to run Google Earth across a small cluster of PC's and it has grown from there! \nLiquid Galaxy hardware consists of one or more computers driving multiple displays. Liquid Galaxy applications have been developed using a master\/slave architecture. The view orientation of each slave display is configured in reference to the view of the master display. Navigation on the system is done from the master instance and the location on the master is broadcast to the slaves over UDP. The slave instances, knowing their own locations in reference to the master, then change their views accordingly.\nThe Liquid Galaxy Project, while making use of Google Earth software, does not develop the Google Earth code-base itself. Google Earth is not open-source software, although it is free (as in beer). Instead, the Liquid Galaxy Project works on extending the Liquid Galaxy system with open-source software both improving its administration and enabling open-source applications, so that content of various types can be displayed in the immersive panoramic environment.\nArtificial Intelligence focus:\n2023 was the AI year, and as the mainstream market demands, 2024 and the coming years will still be a very hot topic. At the Liquid Galaxy community, we’ve been using AI for years to obtain data to be shown on Google Earth for our projects, using TensorFlow and more. Last year we made some specific advances incorporating an Artificial Intelligence server inside our rig LAN, managing with dockers the different projects, implementing local models for different functionalities, and having artificial voices in our system. Also last year we incorporated Google’s Mediapipe-based project Gameface to be able to control the Liquid Galaxy just with your face! \nThis year also we’ll allow the use of Cloud-based services, like Google’s models Gemini and Palm2."
+ },
+ {
+  "id": "26",
+  "organisation_name": "LLVM Compiler Infrastructure",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/llvm-compiler-infrastructure",
+  "organisation_tag": "LLVM Compiler Infrastructure",
+  "organisation_technologies": "llvm, c++, clang, mlir",
+  "organisation_topics": "compilers, development tools, libraries",
+  "organisation_website": "http:\/\/www.llvm.org",
+  "organisation_description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Despite its name, LLVM has little to do with traditional virtual machines. The name \"LLVM\" itself is not an acronym; it is the full name of the project.\n\nLLVM began as a research project at the University of Illinois, with the goal of providing a modern, SSA-based compilation strategy capable of supporting both static and dynamic compilation of arbitrary programming languages. Since then, LLVM has grown to be an umbrella project consisting of a number of subprojects, many of which are being used in production by a wide variety of commercial and open source projects as well as being widely used in academic research.\n\nIn addition to official subprojects of LLVM, there are a broad variety of other projects that use components of LLVM for various tasks. Through these external projects you can use LLVM to compile Ruby, Python, Haskell, Rust, D, PHP, Pure, Lua, Julia, and a number of other languages. A major strength of LLVM is its versatility, flexibility, and reusability, which is why it is being used for such a wide variety of different tasks: everything from doing light-weight JIT compiles of embedded languages like Lua to compiling Fortran code for massive super computers."
+ },
+ {
+  "id": "27",
+  "organisation_name": "Machine Learning for Science (ML4SCI)",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/machine-learning-for-science-ml4sci",
+  "organisation_tag": "Machine learning applications in science",
+  "organisation_technologies": "python, machine learning, c++, data analysis, artificial intelligence",
+  "organisation_topics": "machine learning, science and medicine, algorithms, physics, astronomy",
+  "organisation_website": "https:\/\/ml4sci.org\/",
+  "organisation_description": "Machine Learning for Science (ML4SCI) is an umbrella organization for machine learning-related projects in science. ML4SCI brings together researchers from universities and scientific laboratories with motivated students to join existing scientific collaborations and contribute to cutting edge science projects across a wide variety of disciplines. Students work on existing problems to develop new machine learning-based approaches and produce open source code that directly contributes to solving these scientific challenges. \n\nML4SCI currently includes projects from a variety of fields. For example, some of them explore the uses of machine learning for particle reconstruction and classification in high-energy physics, deep learning-based searches for dark matter in astrophysics, applications of machine learning techniques to data returned from planetary science missions, applications of quantum machine learning to science, and others.\n\nMachine learning ideas and approaches can be broadly applicable and transferable across the scientific domains. The goals of ML4SCI projects are to grow the open-source community in machine learning for science by addressing important scientific challenges and transferring the knowledge and tools of machine learning across the disciplines. We look forward to your applications!"
+ },
+ {
+  "id": "28",
+  "organisation_name": "Mantis",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/mantis",
+  "organisation_tag": "Stream Processing for Operational Analytics",
+  "organisation_technologies": "java, Rxjava, Akka, Netty",
+  "organisation_topics": "cloud, distributed systems, Operational Analytics",
+  "organisation_website": "https:\/\/netflix.github.io\/mantis\/",
+  "organisation_description": "Mantis is a platform to build an ecosystem of realtime stream processing applications. Mantis provides a robust, scalable platform ideally suited for high volume, low latency use cases like anomaly detection and alerting. Mantis has been in production at Netflix since 2014. It processes trillions of events and petabytes of data every day."
+ },
+ {
+  "id": "29",
+  "organisation_name": "MariaDB",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/mariadb",
+  "organisation_tag": "The fastest growing Open Source Database",
+  "organisation_technologies": "python, javascript, c\/c++, perl, databases",
+  "organisation_topics": "Database Engines, SQL Features",
+  "organisation_website": "https:\/\/mariadb.org",
+  "organisation_description": "MariaDB Foundation is the non-profit organization behind MariaDB Server, the fastest growing open source databases. MariaDB Foundation's mission is to ensure the continuity of the MariaDB Server code as well as foster and facilitated collaboration within the MariaDB ecosystem. As part of GSoC, MariaDB Foundation seeks to bring more developers into the MariaDB Server (and related projects) code base."
+ },
+ {
+  "id": "30",
+  "organisation_name": "Mathesar",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/mathesar",
+  "organisation_tag": "Webapp providing a UX-first interface to databases",
+  "organisation_technologies": "python, postgresql, javascript, django, svelte",
+  "organisation_topics": "databases, web, data, nonprofit, self-hosted",
+  "organisation_website": "https:\/\/mathesar.org\/",
+  "organisation_description": "Mathesar is a straightforward open source tool that provides a spreadsheet-like interface to a PostgreSQL database. Our web-based interface helps you and your collaborators work with data more independently and comfortably – no technical skills needed.\n\nYou can use Mathesar to build data models, enter data, and even build reports. You host your own Mathesar installation, which gives you ownership, privacy, and control of your data."
+ },
+ {
+  "id": "31",
+  "organisation_name": "Mayor's Office of New Urban Mechanics",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/mayors-office-of-new-urban-mechanics",
+  "organisation_tag": "Exploring new approaches to civic life.",
+  "organisation_technologies": "python, javascript, ruby, tensorflow",
+  "organisation_topics": "web, machine learning, gis, civic tech, analytics",
+  "organisation_website": "https:\/\/www.boston.gov\/mechanics",
+  "organisation_description": "Formed in 2010, the Mayor's Office of New Urban Mechanics serves as the City of Boston's innovation incubator, building partnerships between internal agencies and outside entrepreneurs to pilot projects that address resident needs. We design and implement experiments and prototypes that address a range of urban issues. From community green spaces to the future of mobility to Accessory Dwelling Units, our approach to innovation is human-centered, nimble and responsive to the changing needs of our growing City."
+ },
+ {
+  "id": "32",
+  "organisation_name": "MDAnalysis",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/mdanalysis",
+  "organisation_tag": "Analysis of molecular simulations data with Python",
+  "organisation_technologies": "python, cython, c\/c++",
+  "organisation_topics": "science, computational-chemistry, high-performance-computing, molecular-simulation, soft-matter-physics",
+  "organisation_website": "https:\/\/www.mdanalysis.org",
+  "organisation_description": "MDAnalysis is a Python library for the analysis of computer simulations of many-body systems at the molecular scale, spanning use cases from interactions of drugs with proteins to novel materials. It is written by scientists for scientists and is used for cutting edge research in biophysics, chemistry, soft-matter physics, and materials research around the world in academia and national research labs. MDAnalysis strives to be highly interoperable and hence a growing number of projects use MDAnalysis as their foundational library or integrate it.\n\nThe goal of MDAnalysis is to make it easy for users to analyze data that are produced by simulations (primarily molecular dynamics simulations) that run on some of the largest supercomputers in the world. MDAnalysis accomplishes this goal by providing a toolkit of programming building blocks that provide an abstract Python interface to the simulation data — agnostic of the specific simulation package that produced it — that lends itself to interactive data exploration and rapid prototyping but is also a robust foundational library that can form the basis for new computational tools.\n\nMDAnalysis allows one to read particle-based trajectories such as the ones produced by MD simulations or individual coordinate frames (such as biomolecules in the Protein Databank format) and access the atomic coordinates through NumPy arrays. Together with a powerful selection language and many implemented analysis algorithms, MDAnalysis provides a flexible and fast framework for complex analysis tasks. Welcoming documentation such as the User Guide https:\/\/userguide.mdanalysis.org\/ make it easy to get started. New releases are downloaded a few thousand times and the academic papers describing MDAnalysis are cited more than almost two thousand times, indicating the widespread use in the academic community."
+ },
+ {
+  "id": "33",
+  "organisation_name": "MetaBrainz Foundation Inc",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/metabrainz-foundation-inc",
+  "organisation_tag": "Open music \/ book metadata, music recommendations",
+  "organisation_technologies": "python, machine learning, perl, postgres, spark",
+  "organisation_topics": "machine learning, open data, music, books, music social network",
+  "organisation_website": "https:\/\/metabrainz.org",
+  "organisation_description": "The MetaBrainz Foundation is a non-profit that believes in free, open access to data. It has been set up to build community maintained databases and make them available in the public domain or under Creative Commons licenses.\n\nOur data is mostly gathered by volunteers and verified by peer review to ensure it is consistent and correct. All non-commercial use of this data is free, but commercial users are asked to support us in order to help fund the project. We encourage all data users to contribute to the data gathering process so that our data can be as comprehensive as possible.\n\nWith this data we are building a music social network and bias free music recommendations."
+ },
+ {
+  "id": "34",
+  "organisation_name": "MetaCall",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/metacall",
+  "organisation_tag": "Simplifying the embedding of programming languages",
+  "organisation_technologies": "python, c++, rust, nodejs, docker",
+  "organisation_topics": "cloud, polyglot, faas, languages, ffi",
+  "organisation_website": "https:\/\/metacall.io",
+  "organisation_description": "When working with different technologies and developers of different programming languages, the productivity of the entire team worsens due to the lack of interoperability and communication between them. If the developers need two technologies which are written in different programming languages, for instance, a C\/C++ library called from NodeJS, the team usually needs to port to one of the two languages or write a wrapper around them. Maintaining a port of a library or the plumbing code is frequently error-prone, time-consuming, and does not add any value to the final product.\n\nThe main objective of MetaCall is to provide a transparent interoperability in both ways, no matter what language you are using, so you feel like you are using a library written in the same language but in fact, it may be written in C, NodeJS or any other language.\n\nMetaCall currently provides a mechanism to introspect the types and function signatures, which allows us to provide this type info to the caller language. You can have type safety and at the same time avoid boilerplate in both directions.\n\nIt addresses the main shortcomings of embedding independent languages separately. Having a common implementation with a plugin architecture allows you to implement newer languages without rewriting more code. With a single solution you get C#, Ruby, Python or any other language you prefer. We can improve the core continuously and add new languages.\n\nFinally, we are using the polyglot runtime in cloud computing so we take advantage of the interoperability capabilities and allow to build complex polyglot distributed systems with ease. It is possible to build monolithic and mono-repo projects that can be distributed and scaled separately through our Function as a Service built on top of MetaCall, allowing the developer to maximize the productivity without the need of DevOps plumbing or thinking about intercommunication protocols and architectural details."
+ },
+ {
+  "id": "35",
+  "organisation_name": "Metasploit",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/metasploit",
+  "organisation_tag": "World’s most used penetration testing framework",
+  "organisation_technologies": "c, python, postgresql, ruby, assembly",
+  "organisation_topics": "security, penetration testing, offensive security, exploitation",
+  "organisation_website": "https:\/\/metasploit.com",
+  "organisation_description": "The Metasploit Framework is both a penetration testing system and a development platform for creating security tools and exploits. The framework is used by network security professionals to perform penetration tests, system administrators to verify patch installations, product vendors to perform regression testing, and security researchers world-wide. The framework is written in the Ruby programming language and includes components written in C, many flavors of Assembly, Python, Powershell, PHP, and other languages.\n\nThe framework consists of tools, libraries, modules, and user interfaces. The basic function of the framework is a module launcher, allowing the user to configure an exploit module and launch it at a target system. If the exploit succeeds, the payload is executed on the target and the user is provided with a shell to interact with the payload. Hundreds of exploits and dozens of payload options are available."
+ },
+ {
+  "id": "36",
+  "organisation_name": "Micro Electronics Research Lab - UITU",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/micro-electronics-research-lab-uitu",
+  "organisation_tag": "Accelerating Engineering Innovation",
+  "organisation_technologies": "RISCV, Processor, Hardware, systemonchip, memory",
+  "organisation_topics": "iot, embedded, Processor, System on Chip, RISC-V",
+  "organisation_website": "https:\/\/www.merledupk.org",
+  "organisation_description": "A non-profit organization fostering research on IoT, AI and ML based architectures leveraging the open-source RISC-V ISA. The main purpose of this Lab is to train undergraduate students for future Silicon industry."
+ },
+ {
+  "id": "37",
+  "organisation_name": "MIT App Inventor",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/mit-app-inventor",
+  "organisation_tag": "Anyone can build apps with global impact.",
+  "organisation_technologies": "javascript, java, gwt, swift",
+  "organisation_topics": "education, development tools, android, ios",
+  "organisation_website": "http:\/\/appinventor.mit.edu",
+  "organisation_description": "MIT App Inventor is a free, open source web app that anyone can use to build mobile apps. It has been used by over 8 million people worldwide who have built more than 30 million apps. It is available in twelve different languages and used by people from ages 13 and up."
+ },
+ {
+  "id": "38",
+  "organisation_name": "Mixxx",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/mixxx",
+  "organisation_tag": "DJ Mixing App With Powerful Features For All DJs",
+  "organisation_technologies": "javascript, c++, qt",
+  "organisation_topics": "music, dj, streaming",
+  "organisation_website": "https:\/\/mixxx.org",
+  "organisation_description": "Mixxx is a feature rich DJ mixing  application. It supports many MidI and Hid DJ controllers, runs on Win Linux and MacOs. It supports effects, harmonic mixing and beatmatching.\n\nMixxx has an unusually broad community for an open-source project, encompassing performing musicians, C++ addicts, amateur DJs, Internet radio broadcasters, and casual users."
+ },
+ {
+  "id": "39",
+  "organisation_name": "mlpack",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/mlpack",
+  "organisation_tag": "a fast, flexible machine learning library",
+  "organisation_technologies": "c++, C++ template metaprogramming",
+  "organisation_topics": "machine learning, embedded, ai, deep learning, Neural networks",
+  "organisation_website": "https:\/\/www.mlpack.org",
+  "organisation_description": "mlpack is an intuitive, fast, and flexible C++ machine learning library with bindings to other languages. It is meant to be a machine learning analog to LAPACK, and aims to implement a wide array of machine learning methods and functions as a \"swiss army knife\" for machine learning researchers. In addition to its powerful C++ interface, mlpack also provides command-line programs and Python bindings, as well as bindings to other languages."
+ },
+ {
+  "id": "40",
+  "organisation_name": "MoveIt",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/moveit",
+  "organisation_tag": "Moving robots into the future",
+  "organisation_technologies": "python, ros, c++, rust",
+  "organisation_topics": "robotics, motion planning, trajectory generation, kinematics",
+  "organisation_website": "https:\/\/moveit.ros.org",
+  "organisation_description": "MoveIt is the most widely used software for robotic manipulation and has been used on over 150 robots. It is released under the terms of the BSD license, and thus free for industrial, commercial, and research use.\n\nBy incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation, MoveIt is state of the art software for mobile manipulation."
+ },
+ {
+  "id": "41",
+  "organisation_name": "MuseScore",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/musescore",
+  "organisation_tag": "The World’s Most Popular Music Notation Software",
+  "organisation_technologies": "c++, qt, qml, cmake",
+  "organisation_topics": "music, midi, musicxml, sheet music, music notation",
+  "organisation_website": "https:\/\/musescore.org\/",
+  "organisation_description": "MuseScore's main purpose is the creation of high-quality engraved musical scores in a \"What-You-See-Is-What-You-Get\" environment. It supports unlimited staves, linked parts and part extraction, tablature, MidI input and output, percussion notation, cross-staff beaming, automatic transposition, lyrics (multiple verses), fretboard diagrams, and in general everything commonly used in sheet music.\n\nStyle options to change the appearance and layout are available and style sheets can be saved and applied to other scores. In January 2020, MuseScore introduced a unique engraving and notation style built by its full time designer, Martin Keary and engraver Simon Smith.\n\nMuseScore can play back scores through a sequencer and SoundFont sample library. Playback is currently being greatly expanded to include VST support. MidI output to external devices and software synthesisers is also possible.\n\nThe team organise themselves according to a general roadmap published by the product owner every six months, which sets out provisional goals for the internal team. This allows the extended developer community to comment on the roadmap and potentially offer to take ownership over aspects of it. This also allows other contributors to have visibility on aspects of the codebase that may change over the next 6-12 months. In combination with our community organiser, tasks are drawn up and published to provide a well organised collaboration focused on a specific upcoming release.\n\nAll members provide bug tracking support and feedback."
+ },
+ {
+  "id": "42",
+  "organisation_name": "MZmine and MS-DIAL",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/mzmine-and-ms-dial",
+  "organisation_tag": "Open-source software for mass spectrometry",
+  "organisation_technologies": "java, c#, javafx",
+  "organisation_topics": "data science, graphics, cheminformatics, mass spectrometry, feature detection",
+  "organisation_website": "https:\/\/mzmine-ms-dial-gsoc.github.io\/",
+  "organisation_description": "Mass spectrometry is an analytical technique that measures the mass and abundance of small molecules with very high precision. However, the datasets produced by mass spectrometry instruments are complex and multi-dimensional. MZmine (https:\/\/mzmine.org; implemented in Java and JavaFX) and MS-DIAL (http:\/\/prime.psc.riken.jp\/compms\/msdial\/main.html; implemented in C#) are popular open-source graphical software tools for mass spectrometry data processing. Both contain a library of processing algorithms and powerful visualization modules. \n\nBoth MZmine and MS-DIAL are highly cited (>4500 cumulated citations in Pluskal et al., BMC Bioinformatics 2010 and Tsugawa et al., Nature Methods 2015) demonstrating the impact the software tools have in the biomedical research community.  \n\nMZmine 3 is based on JavaFX for its user interface and provides support for cutting-edge techniques such as ion mobility separation. We aim to provide user-friendly, flexible, and extendable modular software covering the entire mass spectrometry data analysis workflow. \n\nMS-DIAL 5 follows the mind of MZmine, and the program is written by C# and WPF. As the unique functions, the program supports the chromatogram deconvolution for data independent acquisition. Furthermore, MS-DIAL 5 also supports the annotation function for various mass fragmentation techniques, mass spectrometry imaging, and proteomics, resulting in the environment for multiomics analysis.\n\nMZmine successfully participated in Google Summer of Code in the years 2017, 2018, and 2019 under the OpenChemistry umbrella, and in 2020 and 2022 as its own organization. Now both MZmine and MS-DIAL projects team up for  GSoC 2023."
+ },
+ {
+  "id": "43",
+  "organisation_name": "National Resource for Network Biology (NRNB)",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/national-resource-for-network-biology-nrnb",
+  "organisation_tag": "Developing open source tools for network biology",
+  "organisation_technologies": "python, javascript, java, html, r",
+  "organisation_topics": "web application, data science, graphics, scientific computing, network biology",
+  "organisation_website": "https:\/\/nrnb.org\/gsoc.html",
+  "organisation_description": "The National Resource for Network Biology (NRNB, https:\/\/www.nrnb.org) organizes the development of free, open-source software technologies to enable network-based visualization, analysis, and biomedical discovery. Biomedical research is increasingly dependent on knowledge expressed in terms of networks, including gene, protein and drug interactions, cell-cell and viral-host communication, and vast social networks. Our technologies enable researchers to assemble and analyze these networks and to use them to better understand biological systems and, in particular, how they fail in disease. \nThe NRNB mentoring organization includes projects such as Cytoscape (https:\/\/cytoscape.org\/), WikiPathways (https:\/\/wikipathways.org\/), SBML (https:\/\/sbml.org\/), and SBGN (https:\/\/sbgn.github.io\/). This is a great opportunity to work at the intersection of biology and computing! For example, Cytoscape is downloaded over 18,000 times per month by researchers. We take mentoring seriously and are proud of our 95% success rate (https:\/\/www.nrnb.org\/alumni.html#gsoc-tab) with former students and projects. But don’t take our word for it, read testimonials from prior NRNB students (https:\/\/www.nrnb.org\/testimonials.html#student-tab) and (https:\/\/www.nrnb.org\/testimonials.html#mentor-tab)."
+ },
+ {
+  "id": "44",
+  "organisation_name": "NumFOCUS",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/numfocus",
+  "organisation_tag": "NumFOCUS promotes open source scientific software.",
+  "organisation_technologies": "python, c++, r, julia",
+  "organisation_topics": "data science, graphics, scientific computing, numerical computation",
+  "organisation_website": "https:\/\/numfocus.org",
+  "organisation_description": "NumFOCUS supports and promotes world-class, innovative, open source scientific software. Most individual projects, even the wildly successful ones, find the overhead of a non-profit to be too large for their community to bear. NumFOCUS provides a critical service as an umbrella organization for this projects."
+ },
+ {
+  "id": "45",
+  "organisation_name": "omegaUp",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/omegaup",
+  "organisation_tag": "Open CS Education as a catalyst for social change",
+  "organisation_technologies": "python, mysql, php, typescript, vue.js",
+  "organisation_topics": "education, web, cloud, edtech, UX\/UI",
+  "organisation_website": "https:\/\/omegaup.org",
+  "organisation_description": "omegaUp  is a non-profit organization (501c3) aimed to increase the number of talented Software Engineers in Latin America. Our open source platform omegaUp.com lets students immerse in a learning environment that fosters self paced learning of computer science skills with a democratic access to state-of-the-art learning tools.\n\nTeachers and tutors can create new coding challenges or use existing ones to start online programming competitions with local, national or even international reach, with automated grading of student's coding solutions. The omegaUp.com platform also enables teachers to leverage Competitive Programming tools and concepts inside the classroom to improve their educational experience."
+ },
+ {
+  "id": "46",
+  "organisation_name": "Open Genome Informatics",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/open-genome-informatics",
+  "organisation_tag": "Open access genomics and bioinformatics projects",
+  "organisation_technologies": "python, react, r-project, graph, angular",
+  "organisation_topics": "genomics, bioinformatics, cloud, biology, data discovery",
+  "organisation_website": "http:\/\/gmod.org\/wiki\/GSoC",
+  "organisation_description": "The Open Genome Informatics group represents an umbrella organization consisting of several open source and open access genomics and bioinformatics projects worldwide. Our goals are to develop and maintain a collection of sustainable software tools for managing, analyzing, visualizing, storing, and disseminating genomic data."
+ },
+ {
+  "id": "47",
+  "organisation_name": "Open Robotics",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/open-robotics",
+  "organisation_tag": "Development of open source robotics",
+  "organisation_technologies": "ros, gazebo, ignition, Open-RMF",
+  "organisation_topics": "robotics, simulation",
+  "organisation_website": "https:\/\/www.openrobotics.org\/",
+  "organisation_description": "Support the  development, distribution, and adoption of open source software for use  in robotics research, education, and product development."
+ },
+ {
+  "id": "48",
+  "organisation_name": "Open Technologies Alliance - GFOSS",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/open-technologies-alliance-gfoss",
+  "organisation_tag": "Promote Open Standards and Open Source",
+  "organisation_technologies": "javascript, c\/c++, nodejs, python 3, Machine Learning (ML)",
+  "organisation_topics": "web, robotics, open hardware, c++, nodered",
+  "organisation_website": "http:\/\/www.gfoss.eu",
+  "organisation_description": "Open Technologies Alliance (GFOSS)  is a non-profit organization, with 37 Universities and Research Centers as its shareholders. Our main goal is to promote Openness.\nGFOSS – Open Technologies Alliance  is a platform for Open Standards, Free Software, Open Content, Open Data & Open Hardware in Greece. The major Greek Universities and Research Centers participate in GFOSS – Open Technologies Alliance, while leading members of the Greek community of developers play a key role in the implementation of our policies. Through our initiatives we aspire to contribute and coordinate the efforts of groups of volunteers, public servants, university researchers and students enabling them to form the backbone of Greek FOSS development and implementation. GFOSS is one of the strategic actors for the promotion of OSS throughout Greece (see https:\/\/joinup.ec.europa.eu\/sites\/default\/files\/inline-files\/OSS%20Country%20Intelligence%20Report_GR.pdf ). Many public administrations and academic institutions collaborate with GFOSS to implement open source projects and through Google Summer of Code we give the opportunity to students to actively engage in the production and the actual implementation of an open source project. GFOSS also contributes and advises on the development of various open source projects related to e-government and digital transformation in Greece (e.g. https:\/\/howto.gov.gr\/ - https:\/\/forma.gov.gr\/) and actively promotes the use of Open Source software and hardware in the Greek primary and secondary education through the Open Educational Technologies Competition (https:\/\/openedtech.ellak.gr\/ )"
+ },
+ {
+  "id": "49",
+  "organisation_name": "OpenAstronomy",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/openastronomy",
+  "organisation_tag": "Look at the Universe with the power of open source",
+  "organisation_technologies": "c, python, julia",
+  "organisation_topics": "image processing, astronomy, solar physics, high energy astrophysics",
+  "organisation_website": "https:\/\/openastronomy.org\/",
+  "organisation_description": "OpenAstronomy is a collaboration between open source astronomy and astrophysics projects that are used by researchers and engineers around the world to study our universe either by analysing the data obtained from amazing instruments like the [James Webb Space telescope](https:\/\/jwst.nasa.gov\/), the [Square Kilometer Array](https:\/\/www.skatelescope.org\/) or the [Solar Dynamic Observatory](http:\/\/sdo.gsfc.nasa.gov\/), developing very sophisticated numerical models (eg. [FLASH](http:\/\/flash.uchicago.edu\/)) or designing interplanetary trajectories for human-made spacecraft. The analysis of such data helps multiple types of research, from being able to forecast solar storms to detect planets in other stars, to understanding how galaxies are formed to explain the expansion and the origin of the universe.\n\nOpenAstronomy is currently formed by [16 organisations](http:\/\/openastronomy.org\/members\/) that develop tools for different aspects of astronomy. The range of topics covered by these projects is wide, for example: \n- [Astropy](http:\/\/astropy.org) is a general Python library for astronomy, providing common tools such as celestial coordinates, image processing, tabular data  reading and writing, units and support for astronomy-specific file formats; \n- [SunPy](http:\/\/sunpy.org) provides utilities for obtaining and representing solar physics data, with clients for some of the largest online solar physics data archives and solar specific analysis and visualisation code;\n- [Glue](http:\/\/www.glueviz.org\/) is a data visualization application and library to explore relationships within and among related datasets.\n- [Julia Astro](http:\/\/juliaastro.github.io\/) is a set of packages for general astronomy and astrophysics analysis using Julia;\n- And more!\n\nAs a single organisation, we aim to strengthen collaborations between the different sub-organisations, and at the same time increase the awareness among our users on the capabilities of our \"sister\" projects."
+ },
+ {
+  "id": "50",
+  "organisation_name": "OpenCV",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/opencv",
+  "organisation_tag": "++ beneficial uses of computer vision in society",
+  "organisation_technologies": "python, c++, deep learning, ai",
+  "organisation_topics": "robotics, computer vision, ai, deep learning",
+  "organisation_website": "https:\/\/opencv.org\/",
+  "organisation_description": "OpenCV promotes the beneficial uses of computer vision in society primarily through maintaining a state-of-the-art open and free code base and via courseware, contests, workshops and conferences. \n\nOpenCV, the Open Source Computer Vision Library includes state of the art computer vision and deep learning algorithms (including running deep networks) and apps. It is professionally coded and optimized. It can be used in C++, Python, javascipt, Julia, Cuda, OpenCL and Matlab. It runs on: Android, iOS, Windows, Linux and MacOS and many embedded implementations such as Raspberry Pi, Movidius, and RISC-V."
+ },
+ {
+  "id": "51",
+  "organisation_name": "OpenMRS",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/openmrs",
+  "organisation_tag": "Write Code, Save Lives.",
+  "organisation_technologies": "mysql, javascript, java, reactjs, fhir",
+  "organisation_topics": "platform, frontend, Electronic Medical Record System, QA automation",
+  "organisation_website": "https:\/\/openmrs.org\/",
+  "organisation_description": "OpenMRS provides the foundational, electronic medical record technology for more than 6,500 health facilities in over 40 countries, touching and helping millions of patients throughout  the world.  \n\nThe OpenMRS Community’s mission is to improve healthcare delivery in resource-constrained environments. \n\nWe coordinate a global community that creates and sustains a robust, scalable, user-driven and open-source medical record platform and reference frontend application.\n\nWe maintain a platform that countries and implementers use to create a customized EMR system in response to actual needs on the ground."
+ },
+ {
+  "id": "52",
+  "organisation_name": "OpenStreetMap",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/openstreetmap",
+  "organisation_tag": "Create and distribute free geodata for the world",
+  "organisation_technologies": "python, javascript, java, c++, sql",
+  "organisation_topics": "databases, routing, gis, ui, geocoding",
+  "organisation_website": "https:\/\/www.openstreetmap.org\/",
+  "organisation_description": "OpenStreetMap is a crowdsourcing project that creates and distributes free geographic data for the world. Our data is collected by hundreds of thousands of contributors around the globe and released with an open-content license. We allow free access not only to our map products, but all the underlying map data, which powers websites and apps used by billions of people worldwide.\n\nOSM data can be freely used in both open and closed source software, and has attracted many commercial users. Still, the success of OSM wouldn't be possible without open source software and volunteer developers. The database, website and api running on our own servers, the editing tools used by contributors to improve the map, and many of the most popular libraries and end-user applications within the OSM software ecosystem are all open source software, and developed through a community-driven process.\n\nAs our Google Summer of Code participation spans this diverse set of software projects, most of which are maintained as independent efforts under the OSM umbrella, contributors will encounter a wide range of programming languages, paradigms and use cases. We hope that we have interesting challenges to offer for any developer, no matter their background!"
+ },
+ {
+  "id": "53",
+  "organisation_name": "openSUSE Project",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/opensuse-project",
+  "organisation_tag": "Makers' choice for sysadmins, developers & users",
+  "organisation_technologies": "python, c\/c++, go, ruby, reactjs javascript",
+  "organisation_topics": "AIML, operating system developer tools, containers kubernetes, Security Cryptography, systems management",
+  "organisation_website": "https:\/\/get.opensuse.org\/",
+  "organisation_description": "The openSUSE Project is a worldwide effort that promotes the use of Linux, tools around it, and open source. The openSUSE community is made up of multiple contributing communities that collaborate as part of a global open-source network. The openSUSE community develops, builds and maintains many of the packages, tools and infrastructure for the distribution. The community works together in an open, transparent and friendly manner as part of the global Free and Open Source Software community. openSUSE creates one of the world's best Linux distributions, as well as a variety of tools, such as OBS, OpenQA, Kiwi, YaST, OSEM and Uyuni. Distributions include a rolling release (Tumbleweed), a stable annual release (Leap) and operating systems for edge, embedded, cloud and containers through MicroOS and ALP.\n\nThe project is controlled by its community and relies on the contributions of individuals, working as testers, writers, translators, usability experts, artists and ambassadors or developers. The project embraces a wide variety of technology, people with different levels of expertise, speaking different languages and having different cultural backgrounds."
+ },
+ {
+  "id": "54",
+  "organisation_name": "OpenVINO Toolkit",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/openvino-toolkit",
+  "organisation_tag": "Make AI inference faster and easier to deploy!",
+  "organisation_technologies": "python, c++, x86",
+  "organisation_topics": "machine learning, ai, deep learning, neural network, inference",
+  "organisation_website": "https:\/\/docs.openvino.ai\/",
+  "organisation_description": "Learning and practicing AI is not easy. Deploying AI in real applications is challenging and complex. We realized that and created OpenVINO – an open-source toolkit for bringing AI models to life on the most widespread and available platforms like x86 CPUs, but also Intel GPUs and NPUs that make up an AI PC. One can use OpenVINO to optimize own model for high performance with the most advanced model optimization capabilities and run those through OpenVINO runtime on various devices. \n\nWe are driven by the idea of making it easy for a regular person to learn and use AI with minimal investments and unlock innovation (such as LLMs and Gen AI) to a broad audience. We allow AI inference on the most widespread and popular platforms and provide pre-trained models, educational and visual demos, image annotation tools, and model training templates to get you up to speed. With good use-case coverage and simple\/educational API, OpenVINO is also a toolkit of choice for AI in production by plenty of companies. It is a fully production-ready software solution."
+ },
+ {
+  "id": "55",
+  "organisation_name": "OpenWISP",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/openwisp",
+  "organisation_tag": "The Hackable Network Management System",
+  "organisation_technologies": "python, javascript, django, lua, openwrt",
+  "organisation_topics": "networking, network management system, wifi, vpn, sdn",
+  "organisation_website": "https:\/\/openwisp.org",
+  "organisation_description": "OpenWISP is an open source network management system which runs on low cost hardware and can be used to manage networks: from public wifi, university wifi, to mesh networks and IoT."
+ },
+ {
+  "id": "56",
+  "organisation_name": "Oppia Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/oppia-foundation",
+  "organisation_tag": "Free platform for interactive, tutor-like lessons",
+  "organisation_technologies": "python, google app engine, angular, typescript",
+  "organisation_topics": "education, web, community, nonprofit, social impact",
+  "organisation_website": "https:\/\/www.oppia.org",
+  "organisation_description": "The Oppia project aims to empower learners across the globe by providing access to high-quality, engaging education. We envision a world where access to high-quality education is not a privilege but a human right. \n\nThe team works on two platforms: \n\n    (a) Oppia Web, which provides an online learning tool that enables anyone to learn from effective and engaging interactive lessons (called 'explorations'), which simulate a one-on-one conversation with a tutor. This format makes it possible for students to learn by doing while getting feedback. The Oppia Web platform also provides the infrastructure needed to support lesson creation and translation.\n\n    (b) Oppia Android, which provides a way for these lessons to be played offline on an Android app that supports low-end devices and does not require Internet connectivity. \n\nAs a community, we are also aware that millions of students in underserved communities lack access to the educational resources necessary to effectively learn key skills like basic numeracy. Thus, in addition to developing the Oppia platform, the team has launched and continues to develop a set of free and effective lessons on basic mathematics, supplemented by translations and voiceovers. Students using these lessons have shown strong improvements between pre-and post-tests, and we’ve received lots of positive feedback on them. We are planning to extend this offering to other subjects, based on what students (and the nonprofits working with them) tell us would be most useful."
+ },
+ {
+  "id": "57",
+  "organisation_name": "Organic Maps",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/organic-maps",
+  "organisation_tag": "Offline maps app for tourists, cyclers & hikers",
+  "organisation_technologies": "android, java, c++, ios, OpenStreetMap",
+  "organisation_topics": "privacy, maps, navigation, mobile, offline",
+  "organisation_website": "https:\/\/organicmaps.app",
+  "organisation_description": "Organic Maps is the ultimate companion app for travelers, tourists, hikers, and cyclists:\n\n- Detailed offline maps with places that don't exist on other maps, thanks to OpenStreetMap\n- Cycling routes, hiking trails, and walking paths\n- Contour lines, elevation profiles, peaks, and slopes\n- Turn-by-turn walking, cycling, and car navigation with voice guidance\n- Fast offline search on the map\n- Bookmarks export and import in KML\/KMZ formats (GPX is planned)\n- Dark Mode to protect your eyes\n- Countries and regions don't take a lot of space\n- Free and open-source\n\nOrganic Maps is pure and organic, made with love:\n\n- Respects your privacy\n- Saves your battery\n- No unexpected mobile data charges"
+ },
+ {
+  "id": "58",
+  "organisation_name": "OSGeo (Open Source Geospatial Foundation)",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/osgeo-open-source-geospatial-foundation",
+  "organisation_tag": "The Open Source Geospatial Foundation",
+  "organisation_technologies": "c, python, javascript, java, c++",
+  "organisation_topics": "open science, gis, citizen science, geolocation, mapping",
+  "organisation_website": "https:\/\/www.osgeo.org\/",
+  "organisation_description": "The Open Source Geospatial Foundation (OSGeo) is a not-for-profit organization whose mission is to foster global adoption of open geospatial technology by being an inclusive software foundation devoted to an open philosophy and participatory community-driven development.\n\n\n\nOSGeo serves as an umbrella organization for the Open Source Geospatial community in general and several code projects in particular:\n\n* Web Mapping: deegree, geomajas, GeoMOOSE, GeoServer, Mapbender, MapFish, MapGuide Open Source, MapServer, OpenLayers.\n\n* Desktop Applications: GRASS GIS, gvSIG, Marble, QGIS.\n\n* Geospatial Libraries: FDO, GDAL\/OGR, GEOS, GeoTools, OSSIM, PostGIS.\n\n* Metadata Catalogues: GeoNetwork, pycsw.\n\n* Content Management Systems: GeoNode.\n\n* Community Projects: pgRouting, istSOS, MetaCRS, Opticks, Orfeo ToolBox (OTB), PyWPS, Team Engine, ZOO-Project.\n\n* Other (non-code) Projects: GeoForAll (Education and Curriculum), OSGeoLive DVD, Public Geospatial Data.\n\n\n\nWe host regional and international FOSS4G conferences with typical attendance of 500-1100+ geospatial developers, industry and government leaders, and researchers. Our mailing lists collectively go out to ~ 30,000 unique subscribers."
+ },
+ {
+  "id": "59",
+  "organisation_name": "OWASP Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/owasp-foundation",
+  "organisation_tag": "No more insecure software.",
+  "organisation_technologies": "python, javascript, java, ZAP, Juice Shop",
+  "organisation_topics": "web, cloud, application security, cybersecurity, DevSecOps",
+  "organisation_website": "https:\/\/owasp.org",
+  "organisation_description": "As the world’s largest non-profit organization concerned with software security, OWASP:\n\n* Supports the building of impactful projects; \n* Develops & nurtures communities through events and chapter meetings worldwide; \n* Provides educational publications & resources\n\nin order to enable developers to write better software, and security professionals to make the world's software more secure."
+ },
+ {
+  "id": "60",
+  "organisation_name": "PEcAn Project",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/pecan-project",
+  "organisation_tag": "Develop and promote tools for ecosystem modeling",
+  "organisation_technologies": "r, docker, api, geospatial",
+  "organisation_topics": "data science, ecosystem models, scientific visualization, climate science, Ecological Forecasting,",
+  "organisation_website": "https:\/\/pecanproject.github.io\/",
+  "organisation_description": "Climate change science has witnessed an explosion in the amount and types of data that can be brought to bear on the potential responses of the terrestrial carbon cycle and biodiversity to global change. Many of the most pressing questions about global change are not necessarily limited by the need to collect new data as much as by our ability to synthesize existing data. This project specifically seeks to improve this ability. Because no one measurement provides a complete picture, multiple data sources must be integrated in a sensible manner. Process-based models represent an ideal framework for integrating these data streams because they represent multiple processes at different spatial and temporal scales in ways that capture our current understanding of the causal connections across scales and among data types. Three components are required to bridge this gap between the available data and the required level of understanding: 1) a state-of-the-art ecosystem model, 2) a workflow management system to handle the numerous streams of data, and 3) a data assimilation statistical framework in order to synthesize the data with the model."
+ },
+ {
+  "id": "61",
+  "organisation_name": "Pharo Consortium",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/pharo-consortium",
+  "organisation_tag": "Modern and innovative programming language",
+  "organisation_technologies": "git, smalltalk, roassal, pharo, SUnit",
+  "organisation_topics": "compilers, machine learning, programming languages, virtual machines, Modelling",
+  "organisation_website": "https:\/\/pharo.org\/",
+  "organisation_description": "Pharo is a dynamic, purely object-oriented programming language (everything is an object) in the tradition of Smalltalk. It is also a powerful idE, focused on simplicity and immediate feedback. Its entire syntax fits on a postcard, and coding can be done directly in the debugger. Pharo has cool tools that empower you and make you highly efficient.\n\nPharo's goal is to deliver a clean, innovative, free and open-source immersive environment. By providing a stable and small core system, excellent development tools, and maintained releases, Pharo is an attractive platform to build and deploy mission-critical applications.\n\nPharo fosters a healthy ecosystem developed from both private and commercial contributors who advance and maintain the core system and its external packages."
+ },
+ {
+  "id": "62",
+  "organisation_name": "Pitivi",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/pitivi",
+  "organisation_tag": "Self-expression through filmmaking",
+  "organisation_technologies": "c, python, gtk, gstreamer",
+  "organisation_topics": "video processing, filmmaking, video editing",
+  "organisation_website": "https:\/\/www.pitivi.org\/",
+  "organisation_description": "Pitivi is a truly unique video editor.\n\nIt champions design and usability research: there is no eternal newbie. Pitivi's user interface is carefully designed to suit both the newcomer and the professional, to be efficient and intuitive.\n\nPitivi's backend is the GStreamer Editing Services (GES) library. Built atop the giant shoulders of the industry-standard GStreamer multimedia framework, GES reduces fragmentation and risk while allowing diversity for application writers and adaptability for all kinds of purposes.\n\nThrough GStreamer we have any multimedia building-block we might want in Pitivi."
+ },
+ {
+  "id": "63",
+  "organisation_name": "Plone Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/plone-foundation",
+  "organisation_tag": "Python-based CMS, with React front-end.",
+  "organisation_technologies": "python, javascript, react",
+  "organisation_topics": "web, cms",
+  "organisation_website": "https:\/\/plone.org",
+  "organisation_description": "Plone is a Python-based CMS built with workflow and security at the forefront. It is developed by a world-wide community and uses modern technologies and techniques. It comes with a complete API and a React-based frontend. Also home to Guillotina.io, a full stack data framework, and the Zope and ZODB object database."
+ },
+ {
+  "id": "64",
+  "organisation_name": "PostgreSQL",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/postgresql",
+  "organisation_tag": "The Most Advanced Open Source Relational Database",
+  "organisation_technologies": "c, python, postgresql, javascript, go",
+  "organisation_topics": "web, database, ui, sql, Benchmark",
+  "organisation_website": "https:\/\/postgresql.org",
+  "organisation_description": "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
+ },
+ {
+  "id": "65",
+  "organisation_name": "Postman",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/postman",
+  "organisation_tag": "The Future is API-First",
+  "organisation_technologies": "javascript, api, openapi, AsyncAPI, JSON Schema",
+  "organisation_topics": "testing, api, automation, documentation, data",
+  "organisation_website": "https:\/\/postman.com",
+  "organisation_description": "Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster."
+ },
+ {
+  "id": "66",
+  "organisation_name": "Processing Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/processing-foundation",
+  "organisation_tag": "To empower all people to learn to program",
+  "organisation_technologies": "python, javascript, android, java, opengl",
+  "organisation_topics": "education, web, graphics, creative coding, design",
+  "organisation_website": "http:\/\/processingfoundation.org",
+  "organisation_description": "Our mission is to promote software learning within the arts, artistic learning within technology-related fields, and to celebrate the diverse communities that make these fields vibrant, liberatory, and innovative. Our goal is to support people of all backgrounds in learning how to program and make creative work with code, especially those who might not otherwise have access to tools and resources. We also believe that some of the most radical futures and innovative technologies are being built by communities that have been pushed to the margins by dominant tech. We hope to support those who have been marginalized by technology in continued self-determination by providing time, space, and resources.\n\nWe work toward our goals by developing and distributing a group of related software projects, which includes Processing (Java), p5.js (JavaScript), and Processing Android, and by facilitating partnerships and collaborations with allied organizations and individuals to build a more diverse community around software and the arts."
+ },
+ {
+  "id": "67",
+  "organisation_name": "Purr Data",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/purr-data",
+  "organisation_tag": "Realtime Audio\/Visual Programming Environment",
+  "organisation_technologies": "c, javascript, html5, Emscripten",
+  "organisation_topics": "web, graphics, audio, realtime",
+  "organisation_website": "https:\/\/www.purrdata.net\/",
+  "organisation_description": "Purr Data is a visual programming language with an emphasis on generating sound, video, 2D\/3D graphics, and connecting through sensors, input devices, and MidI as well as OSC devices. It has an HTML5 frontend. It also has realtime DSP backend written in C which can run natively or in the browser.\n\nPurr Data has a special emphasis on generating audio and\/or video in real time, with low latency. Much of its design focuses on receiving, manipulating, and delivering high-quality audio signals. Specifically, the software addresses the problem of how to do this efficiently and reliably on general purpose operating systems like macOS, Windows, Debian, etc.-- i.e., systems designed mainly for multi-tasking.\n\nPurr Data can easily work over local and remote networks. It can be used to integrate wearable technology, motor systems, lighting rigs, and other equipment. Purr Data is also suitable for learning basic multimedia processing and visual programming methods, as well as for realizing complex systems for large-scale projects."
+ },
+ {
+  "id": "68",
+  "organisation_name": "Python Software Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/python-software-foundation",
+  "organisation_tag": "A programming language used for science & more",
+  "organisation_technologies": "python, javascript, c++, SBOM",
+  "organisation_topics": "security, visualization, compiler, modeling, Backup",
+  "organisation_website": "https:\/\/python-gsoc.org\/",
+  "organisation_description": "Python is a programming language that lets you work more quickly and integrate your systems more effectively.\n\nThe Python Software Foundation serves as an umbrella organization to a\nvariety of Python-related projects, as well as sponsoring projects related to the\ndevelopment of the Python language.\n\nYou can view a full list of participating sub-orgs here:\nhttps:\/\/python-gsoc.org\/ideas.html\n\nSub-orgs:\n- Borg Collective - backup tools\n- CVE Binary Tool - scanning for known security vulnerabilities\n- DIPY - 3d\/4d+ imaging\n- Fury - scientific visualization tools\n- LPython - ahead of time compiler for python\n- MNE-Python - tools for human neurophysiological data\n- Mission Support System - atmospheric science tools for flight planning\n- PyData\/Sparse - n-dimensional sparse arrays for pyData\n- PyElastica - simulation and modeling for slender structures"
+ },
+ {
+  "id": "69",
+  "organisation_name": "Qdrant",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/qdrant",
+  "organisation_tag": "Vector Search Database for the new AI generation.",
+  "organisation_technologies": "python, javascript, rust",
+  "organisation_topics": "databases, machine learning, Search Engines",
+  "organisation_website": "https:\/\/qdrant.tech",
+  "organisation_description": "Qdrant is powering the next generation of AI applications with advanced and high-performant vector similarity search technology. \nOur main project is the Vector Search Engine and Database. It is open-source and written in Rust 🦀. With Qdrant, embeddings or neural network encoders can be turned into full-fledged applications for matching, searching, recommending, and much more!"
+ },
+ {
+  "id": "70",
+  "organisation_name": "QEMU",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/qemu",
+  "organisation_tag": "Open source machine emulator and virtualizer",
+  "organisation_technologies": "c, python, linux, rust",
+  "organisation_topics": "systems programming, kernel, compiler, emulator, hypervisor",
+  "organisation_website": "https:\/\/qemu.org\/",
+  "organisation_description": "The QEMU Project includes the QEMU open source machine emulator and virtualizer and also acts as an umbrella organization for the KVM Linux kernel module and rust-vmm community.\n\nWhen used as a machine emulator, QEMU can run operating systems and programs made for one machine (e.g. an ARM board) on a different machine (e.g. your own PC). By using dynamic translation, it achieves very good performance.\n\nWhen used as a virtualizer, QEMU achieves near native performances by executing the guest code directly on the host CPU. QEMU supports virtualization when executing under the Xen hypervisor or using the KVM kernel module in Linux. When using KVM, QEMU can virtualize x86, ARM, server and embedded PowerPC, and S390 guests."
+ },
+ {
+  "id": "71",
+  "organisation_name": "R project for statistical computing",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/r-project-for-statistical-computing",
+  "organisation_tag": "R software for statistical computing & graphics",
+  "organisation_technologies": "c, javascript, c++, r-project, fortran",
+  "organisation_topics": "visualization, machine learning, data science, graphics, statistics",
+  "organisation_website": "https:\/\/www.r-project.org\/",
+  "organisation_description": "R provides a wide variety of statistical and graphical techniques, and is highly extensible. R is often the tool of choice for research in statistical methodology.\n\nR is an integrated suite of software facilities for data manipulation, calculation and graphical display. It includes\n\n* an effective data handling and storage facility,\n* a suite of operators for calculations on arrays, in particular matrices,\n* a large, coherent, integrated collection of intermediate tools for data analysis,\n* graphical facilities for data analysis and display either on-screen or on hardcopy, and\n* a well-developed, simple and effective programming language which includes conditionals, loops, user-defined recursive functions and input and output facilities.\n\nThe term “environment” is intended to characterize it as a fully planned and coherent system, rather than an incremental accretion of very specific and inflexible tools, as is frequently the case with other data analysis software.\n\nR, like S, is designed around a true computer language, and it allows users to add additional functionality by defining new functions. Much of the system is itself written in the R dialect of S, which makes it easy for users to follow the algorithmic choices made. For computationally-intensive tasks, C, C++ and Fortran code can be linked and called at run time. Advanced users can write C code to manipulate R objects directly.\n\nMany users think of R as a statistics system. We prefer to think of it of an environment within which statistical techniques are implemented. R can be extended (easily) via packages. There are about eight packages supplied with the R distribution and many more are available through the CRAN family of Internet sites covering a very wide range of modern statistics.\n\nR has its own LaTeX-like documentation format, which is used to supply comprehensive documentation, both on-line in a number of formats and in hardcopy."
+ },
+ {
+  "id": "72",
+  "organisation_name": "Red Hen Lab",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/red-hen-lab",
+  "organisation_tag": "Research on Multimodal Communication",
+  "organisation_technologies": "python, machine learning, nlp, ai, data science",
+  "organisation_topics": "data science, ai, language, multimodal communication, gesture",
+  "organisation_website": "http:\/\/www.redhenlab.org",
+  "organisation_description": "Red Hen Lab is an international distributed cooperative of researchers in multimodal communication. We are senior professors at major research universities, senior developers in technology corporations. We also include junior professors, postdoctoral students, graduate students, undergraduate students, and even a few advanced high school students. Red Hen works in AI, Natural Language Processing, ASR, audio parsing, gesture analysis, media analysis, computer vision, and multimodal analysis.\n\nRed Hen's multimodal communication research involves locating, identifying, and characterizing auditory and visual elements in videos and pictures. We may provide annotated clips or images and present the challenge of developing the machine learning tools to find additional instances in a much larger dataset. Some examples are gestures, eye movements, and tone of voice. We favor projects that combine more than one modality, but have a clear communicative function—an example would be floor-holding techniques. Once a feature has been successfully identified in our full dataset of several hundred thousand hours of news videos, cognitive linguists, communication scholars, and political scientists can use this information to study higher-level phenomena in language, culture, and politics and develop a better understanding of the full spectrum of human communication. Our dataset is recorded in a large number of languages, giving Red Hen a global perspective.\n\nSee our ideas Page for GSoC2024. Red Hen Lab is directed jointly by Francis Steen (UCLA) and Mark Turner (Case Western Reserve University)."
+ },
+ {
+  "id": "73",
+  "organisation_name": "Rizin",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/rizin",
+  "organisation_tag": "Rizin reverse engineering framework and toolset",
+  "organisation_technologies": "c, python, go, c++, qt",
+  "organisation_topics": "reverse engineering, computer security, debugging, emulation, disassembly",
+  "organisation_website": "https:\/\/rizin.re",
+  "organisation_description": "The Rizin project is a fork of the famous Radare2 project that started in 2006. Since then the codebase has been rewritten multiple times, modularized and extended to support many new features. The Rizin project aims to provide stability, focus on the most important features, and provide a user friendly interface. Along with Cutter - a Qt-based GUI and the RzGhidra decompiler it makes the effective tool for everyday reversing tasks.\n\nRizin is composed of a hexadecimal editor at its core, with support for several architectures and binary formats. It features code analysis capabilities, scripting, data and code visualization through graphs and other means, a visual mode, easy UNIX integration, a binary diffing engine for code and data, a shellcode compiler, multi-platform debug with reverse debug capabilities and much, much more!"
+ },
+ {
+  "id": "74",
+  "organisation_name": "rocket.chat",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/rocketchat",
+  "organisation_tag": "Open source team chat and communications platform",
+  "organisation_technologies": "javascript, typescript, node, LLM, generative ai",
+  "organisation_topics": "communications, messaging, group chat, Team Collaboration, Chat platform",
+  "organisation_website": "https:\/\/github.com\/RocketChat",
+  "organisation_description": "Ultimate open source team chat and communications platform\n\nRocket.Chat is one of the largest active open source (permissive MIT source license) nodeJS communications platform communities on GitHub, connecting 1500+ global community contributors (across projects) from 30+ countries, with 31700+ GitHub stars, 6500 forks, 490+ total releases and 12,000+ issues since inception in 2015.\n\nRocket.Chat is a modern team chat and collaborating platform written in full-stack JavaScript. Rocket.Chat offers a full featured rich team chat experience on modern browsers, comparable to Slack and Microsoft Teams. Mobile and desktop clients run on iOS, Android, Mac, Windows, and Linux. Rocket.Chat server can scale from a small family messaging server for 5 users running on a Raspberry Pi 4, to clustered micro-services configuration that can support hundred thousands of users. On-premise deployment of Rocket.Chat can ensure 100% complete security and privacy of your valuable communications\/data.\n\nRocket.Chat is now installed on over 500k servers and counts over 12m users worldwide. Rocket.Chat’s long-term vision is to replace email with a real-time federated communications platform globally.\n\nUsers can set up Rocket.Chat on cloud or by hosting their own servers on-premises. Thanks to its extension support via Rocket.Chat Apps (plugins), and extremely rich API\/SDK support, startups and innovators have customized Rocket.Chat into new products and services. Chatbots extend the interactivity of Rocket.Chat and integrate external IT systems. Omnichannel extends reach to wherever user may be including WhatsApp, Instagram, Facebook Messenger and more.\n\nRocket.Chat has won multiple prizes such as a 2016 Bossie Award for Best Open Source Application and first prize in the 2017 edition of All Things Open’s Startup Competition.\n\nRocket.Chat supports over 59 local languages. Rocket.Chat's community interacts 24 x 7 at the community Rocket.Chat server  https:\/\/open.rocket.chat  since  2015."
+ },
+ {
+  "id": "75",
+  "organisation_name": "RTEMS Project",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/rtems-project",
+  "organisation_tag": "A real-time operating system for Earth & Space",
+  "organisation_technologies": "python, c\/c++, assembly, posix",
+  "organisation_topics": "kernel, embedded, real-time, multicore, rtos",
+  "organisation_website": "https:\/\/www.rtems.org\/",
+  "organisation_description": "RTEMS (Real-Time Executive for Multiprocessor Systems) is a free real-time operating system (RTOS) designed for deeply embedded systems such as automobile electronics, robotic controllers, and on-board satellite instruments. \n\nRTEMS is free open source software that supports multi-processor systems for over a dozen CPU architectures and over 150 specific system boards. In addition, RTEMS is designed to support embedded applications with the most stringent real-time requirements while being compatible with open standards such as POSIX. RTEMS includes optional functional features such as TCP\/IP and file systems while still offering minimum executable sizes under 20 KB in useful configurations.\n\nThe RTEMS Project is the collection of individuals, companies, universities, and research institutions that collectively maintain and enhance the RTEMS software base. As a community, we are proud to be popular in the space application software and experimental physics communities. RTEMS has been to Venus, circles Mars, is aboard Curiosity, is in the asteroid belt, is on its way to Jupiter, and is circling the sun. It is in use in many high energy physics research labs around the world. There are many RTEMS users who do not belong to the space or physics communities, but our small part in contributing to basic scientific knowledge makes us proud."
+ },
+ {
+  "id": "76",
+  "organisation_name": "Ruby",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/ruby",
+  "organisation_tag": "Ruby is an object-oriented programming language",
+  "organisation_technologies": "c, java, ruby on rails, ruby, rubygems",
+  "organisation_topics": "security, web, cloud, server, application",
+  "organisation_website": "https:\/\/www.ruby-lang.org\/",
+  "organisation_description": "The Ruby organization collects mentors and students working on the Ruby language (MRI), the Ruby packaging system (Bundler, RubyGems, and RubyGems.org), and other Ruby projects. Any Ruby OSS project is eligible to be included in the Ruby GSOC organization."
+ },
+ {
+  "id": "77",
+  "organisation_name": "SageMath",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/sagemath",
+  "organisation_tag": "Open-source mathematics software system",
+  "organisation_technologies": "python, cython",
+  "organisation_topics": "mathematics, education, research",
+  "organisation_website": "https:\/\/www.sagemath.org",
+  "organisation_description": "Mathematicians, scientists, researchers, and students need a powerful tool for their work or study. SageMath is a freely available open-source mathematical software system bundling the functionality of many software libraries, exposing their features in a common interface and extending on top of this with its own powerful algorithms. By leveraging the flexibility and universality of the underlying Python interpreter, SageMath is able to accommodate for a vast range of their requirements.\n\nThe mission of SageMath is to create a viable open-source alternative to all major proprietary mathematical software systems.\n\nPython is the main programming language inside the SageMath library and also the language of choice for all interactions with the built-in objects and functions for expressing mathematical concepts and calculations. Besides a command-line and programming-library interface, its primary user interface is a dynamic self-hosted website. From the perspective of a user, the interface language is Python, but with a thin extension built directly on top of it.\n\nAlmost all areas of mathematics are represented in SageMath, at various levels of sophistication. This includes symbolic calculus, 2D and 3D graphics, polynomials, graph theory, group theory, abstract algebra, combinatorics, cryptography, elliptic curves and modular forms, numerical mathematics, linear algebra and matrix calculations (over various rings), support for parallel computing, and a powerful coercion framework to “mix” elements from different sets for calculations. SageMath’s features also expand into neighboring fields like Statistics and Physics."
+ },
+ {
+  "id": "78",
+  "organisation_name": "Scala Center",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/scala-center",
+  "organisation_tag": "Guide and support the Scala community",
+  "organisation_technologies": "scala, scala.js, scala native",
+  "organisation_topics": "education, compilers, tooling",
+  "organisation_website": "https:\/\/scala-lang.org\/",
+  "organisation_description": "We are an independent not-for-profit center established at EPFL. Scala Center's Mission is to guide and support the Scala community, coordinate and develop open-source libraries and tools for the benefit of all Scala users, provide deep, and quality, educational materials for Scala."
+ },
+ {
+  "id": "79",
+  "organisation_name": "Scalable Parallel Computing Laboratory",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/scalable-parallel-computing-laboratory",
+  "organisation_tag": "High-performance computing for clusters and clouds",
+  "organisation_technologies": "python, c++, mpi, aws, Serverless",
+  "organisation_topics": "programming languages, high-performance computing, parallel computing, Serverless Computing, faas",
+  "organisation_website": "https:\/\/spcl.inf.ethz.ch\/",
+  "organisation_description": "Scalable Parallel Computing Laboratory (SPCL) perform research in all areas of scalable computing. The research areas include scalable high-performance networks and protocols, middleware, operating system and runtime systems, parallel programming languages, cloud computing and serverless, support, and constructs, storage, and scalable data access."
+ },
+ {
+  "id": "80",
+  "organisation_name": "SCoRe Lab",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/score-lab",
+  "organisation_tag": "SCoRe Lab develops FOSS softwares for everyone!!!",
+  "organisation_technologies": "python, java, go, nodejs, reactjs",
+  "organisation_topics": "security, web, machine learning, cloud",
+  "organisation_website": "https:\/\/scorelab.org\/",
+  "organisation_description": "The SCoRe Lab has conducted research covering various aspects of security, digital forensic, mobile applications, cloud, blockchain and software tools. The goal of our research is to generate computing solutions by identifying low-cost methodologies and strategies that lead to sustainability. At present, the SCoRe Lab is at a stage of its evolution in which it has been able to secure high donor confidence as evidenced by simultaneous foreign-funded projects. SCoRe Lab studies and produces sustainable computing solutions with respect to low-cost computing and communication foundations in the developing and emerging regions in the world. We have developed several affordable and sustainable ICT solutions especially focusing on the requirements in the developing region. These solutions are briefly described in the projects section."
+ },
+ {
+  "id": "81",
+  "organisation_name": "ScummVM",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/scummvm",
+  "organisation_tag": "Adventure and RPG preservation project",
+  "organisation_technologies": "opengl, lua, c++, assembly, sdl",
+  "organisation_topics": "games, game engines, software preservation, software archeology",
+  "organisation_website": "https:\/\/www.scummvm.org\/",
+  "organisation_description": "ScummVM is a game preservation projects that celebrated its 20th anniversary last year. Originally focused on 2D Point&Click adventure games, its scope widened in 2016 to RPG thanks to a successful GSoC students, and to 3D games in 2020 after the merge with its sister project, ResidualVM. The purpose is only to replace the game executable, not to enhance or replace the game assets."
+ },
+ {
+  "id": "82",
+  "organisation_name": "Society for Arts and Technology (SAT)",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/society-for-arts-and-technology-sat",
+  "organisation_tag": "Create teleimmersive multisensorial experiences.",
+  "organisation_technologies": "python, javascript, opengl, c++, supercollider",
+  "organisation_topics": "web, graphics, cloud, multimedia, accessibility",
+  "organisation_website": "https:\/\/sat.qc.ca",
+  "organisation_description": "The Society for Arts and Technology [SAT] is a non-profit organization recognized internationally for the development and creative use of immersive technologies, virtual reality and high-speed networks. Founded in 1996, its triple mission as a center for the arts, training and research, is to enable and host teleimmersive multisensorial experiences.\n\nSAT creates open-source tools for: \nImmersive rendering (Mirador, Puara, Poire), \nInteraction (LivePose), \nProjection mapping (Splash Calimiro), \nTelepresence (Satellite hub, Scenic, Switcher), \nAudio spatialization (Audiodice, SATIE, vaRays), \nHaptic Feedback (Haptic Floor, Telluriq),\nData sharing (shmdata).\n\nSAT contributes to opens-source tools for:\nGlue and inter-operability (libmapper), \nImmersive multisensory multimedia authoring (blender, OSSIA score, webmapper)."
+ },
+ {
+  "id": "83",
+  "organisation_name": "Software and Computational Systems Lab at LMU Munich",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/software-and-computational-systems-lab-at-lmu-munich",
+  "organisation_tag": "Software Verification, SAT & SMT solving",
+  "organisation_technologies": "python, java",
+  "organisation_topics": "software verification, benchmarking, program analysis, formal methods, SAT & SMT solving",
+  "organisation_website": "https:\/\/www.sosy-lab.org\/",
+  "organisation_description": "The Software and Computational Systems Lab is a research group at LMU Munich,\none of the leading universities in Germany.\nWe focus on the development of new models and algorithms to efficiently analyze software systems\nand emphasize on tool implementations of the theoretical concepts.\nFor GSoC 2023, we propose ideas involving several aspects of software analysis,\nfrom implementing and benchmarking verification algorithms to incorporating backend logic solvers.\n\nThe following list contains some projects that are suitable for GSoC.\nThey are all open-source projects developed by our group.\n\n<1> CPAchecker (https:\/\/cpachecker.sosy-lab.org) is an\naward-winning (https:\/\/cpachecker.sosy-lab.org\/achieve.php) framework for formal verification of C programs.\nIt is written in Java and based on a highly modular architecture\nthat allows one to develop and combine a wide range of different analyses. \nCPAchecker has helped to find hundreds of bugs in the Linux kernel.\n\n<2> JavaSMT (https:\/\/github.com\/sosy-lab\/java-smt) is a common API layer for accessing various SMT solvers\nfrom Java programs without having to use solver-specific APIs and care about subtle details.\nIt supports the majority of common SMT solvers and is used by a wide range of projects.\n\n<3> PJBDD (https:\/\/gitlab.com\/sosy-lab\/software\/paralleljbdd) is a multi-threaded\nBinary Decision Diagram (BDD) library written in Java.\nIt supports concurrent computation, parallel operations, and automated resource management.\n\n<4> BenchExec (https:\/\/github.com\/sosy-lab\/benchexec) is a benchmarking framework (written in Python)\nthat uses modern Linux features such as cgroups and namespaces\nto create benchmarking containers and measure their resource usage.\n\nFor a more detailed description and some prospective GSoC topics,\nplease visit our webpage (https:\/\/www.sosy-lab.org\/gsoc\/gsoc2023.php#ideas).\nYou are also welcome to suggest your own ideas!"
+ },
+ {
+  "id": "84",
+  "organisation_name": "SPDX",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/spdx",
+  "organisation_tag": "An open ISO standard for SBOMs",
+  "organisation_technologies": "python, java, json, go, rdf",
+  "organisation_topics": "compliance, licensing, data, vulnerabilities",
+  "organisation_website": "https:\/\/spdx.dev",
+  "organisation_description": "SPDX is an open standard for communicating software bill of material information, including provenance, license, security, and other related information. SPDX reduces redundant work by providing common formats for organizations and communities to share important data, thereby streamlining and improving compliance, security, and dependability. The SPDX specification is recognized as the international open standard for security, license compliance, and other software supply chain artifacts as ISO\/IEC 5962:2021."
+ },
+ {
+  "id": "85",
+  "organisation_name": "SQLancer",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/sqlancer",
+  "organisation_tag": "Automatically testing database systems",
+  "organisation_technologies": "java, sql",
+  "organisation_topics": "fuzzing, Automated Testing, Logic bugs, Database systems",
+  "organisation_website": "https:\/\/www.sqlancer.com",
+  "organisation_description": "SQLancer is an automated testing tool that finds logic bugs in database systems (rather than in the databases themselves). Logic bugs are bugs that cause a database system to compute an incorrect result for a given query and a database on which the query is executed. To that end, SQLancer semi-randomly generates databases and queries, whose results are then automatically validated. SQLancer has found hundreds of bugs in database systems such as SQLite, MySQL, DuckDB, CockroachDB, and TidB."
+ },
+ {
+  "id": "86",
+  "organisation_name": "Ste||ar group",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/stear-group",
+  "organisation_tag": "Shaping a Scalable Future",
+  "organisation_technologies": "c++, hpc",
+  "organisation_topics": "library, optimization, parallel algorithms, hpx, application",
+  "organisation_website": "http:\/\/stellar-group.org\/",
+  "organisation_description": "The STE||AR Group is an international team of researchers who understand that a new approach to parallel computation is needed.  Our work is crafted around the idea that we need to invent new ways to more efficiently use the resources that we have and use the knowledge that we gain to help guide the creation of the machines of tomorrow.  This organization aims to support, coordinate, and distribute research done in this area by creating a marketplace of ideas where concepts are debated and solutions are transparently developed."
+ },
+ {
+  "id": "87",
+  "organisation_name": "strace",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/strace",
+  "organisation_tag": "Linux syscall tracer",
+  "organisation_technologies": "c, shell, make, autotools, gawk",
+  "organisation_topics": "debugging, tracing, diagnostic",
+  "organisation_website": "https:\/\/strace.io\/",
+  "organisation_description": "strace is a diagnostic, debugging and instructional userspace utility with a traditional command-line interface for Linux. It is used to monitor and tamper with interactions between processes and the Linux kernel, which include system calls, signal deliveries, and changes of process state. The operation of strace is made possible by the kernel feature known as ptrace.\n\nstrace is one of the longest running free software projects and started even before Linux started.\n\nstrace is an important tool for debugging and tracing deployed on most Linux distributions with a small community of active contributors."
+ },
+ {
+  "id": "88",
+  "organisation_name": "Stratosphere Laboratory, Czech Technical University in Prague",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/stratosphere-laboratory-czech-technical-university-in-prague",
+  "organisation_tag": "Using machine learning and security to help others",
+  "organisation_technologies": "python, redis, docker, textual",
+  "organisation_topics": "machine learning, network security, civil society, Security Defense",
+  "organisation_website": "https:\/\/www.stratosphereips.org\/",
+  "organisation_description": "Stratosphere is a cybersecurity research laboratory at the AI Center, FEE, Czech Technical University in Prague, working at the intersection of cybersecurity, machine learning, and helping others."
+ },
+ {
+  "id": "89",
+  "organisation_name": "Submitty",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/submitty",
+  "organisation_tag": "Homework Autograding and Course Management Tools",
+  "organisation_technologies": "python, postgresql, javascript, c++, php",
+  "organisation_topics": "education, visualization, web, privacy\/security, communication",
+  "organisation_website": "https:\/\/submitty.org",
+  "organisation_description": "Submitty is an open source programming assignment submission system with secure and automated testing and grading, efficient manual TA\/instructor grading, and additional tools for overall course management and communication between students and instructional staff. Submitty was launched by the Rensselaer Center for Open Source Software (RCOS) in 2014.\n\nhttps:\/\/github.com\/Submitty\/\n\nKey Features\n\n+ Secure testing of many programming languages: Python, C\/C++, Java, etc.\n+ Customizable automated grading with immediate feedback to students, and optional hidden or randomized tests.\n+ Advanced grading tools: static analysis, JUnit, code coverage, memory debuggers, networked assignments, custom Docker containers, and screenshots\/GIFs of graphics programs.\n+ Individual or team assignments submittyed by drag-and-drop or version control.\n+ Correct mistakes through multiple submissions, flexible ``late day’’ policy\n+ Interface for complementary instructor\/TA manual grading, regrade requests, anonymized peer grading.\n+ Instructor bulk upload of scanned .pdf exams, QR code name matching, pdf annotation.\n+ Supports course material hosting, term grades spreadsheet, plagiarism detection.\n+ Integrated discussion forum, email announcements, lecture polling, office hours queue, and student activity dashboard.\n+ Scales to multiple courses, thousands of students, multiple instructors and TAs per course\n+ Open-source, free to use, install on your own hardware, or VPS\n\nSubmitty has been used at a half dozen other universities and we aim to grow to more users and developers.  The courses using Submitty cover the undergraduate and graduate curriculum from introductory programming courses, intermediate and advanced theory courses, popular junior\/senior electives with team projects and written reports, and specialized graduate courses.\n\nWe regularly present our work at the annual ACM SIGCSE conference."
+ },
+ {
+  "id": "90",
+  "organisation_name": "Sugar Labs",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/sugar-labs",
+  "organisation_tag": "Learning software for children",
+  "organisation_technologies": "python, gtk, typescript, javascipt",
+  "organisation_topics": "education, games, desktop",
+  "organisation_website": "https:\/\/sugarlabs.org",
+  "organisation_description": "Sugar is an activity-focused, free\/libre open-source software learning platform for children. Collaboration, reflection, and discovery are integrated directly into the user interface. Through Sugar's clarity of design, children and teachers have the opportunity to use computers on their own terms. Students can reshape, reinvent, and reapply both software and content into powerful learning activities. Sugar's focus on sharing, criticism, and exploration is grounded in the culture of free software (FLOSS)"
+ },
+ {
+  "id": "91",
+  "organisation_name": "Swift",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/swift",
+  "organisation_tag": "Fast, safe, and expressive programming language",
+  "organisation_technologies": "c++, cmake, swift",
+  "organisation_topics": "compilers, cross-platform, Packages, Server development, Standard Libraries",
+  "organisation_website": "https:\/\/swift.org",
+  "organisation_description": "Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns.\n\nThe goal of the Swift project is to create the best available language for uses ranging from systems programming, to mobile and desktop apps, scaling up to cloud services. Most importantly, Swift is designed to make writing and maintaining correct programs easier for the developer."
+ },
+ {
+  "id": "92",
+  "organisation_name": "SymPy",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/sympy",
+  "organisation_tag": "SymPy is a Python library for symbolic mathematics",
+  "organisation_technologies": "python, numpy, jupyter",
+  "organisation_topics": "mathematics, physics, symbolic mathematics",
+  "organisation_website": "https:\/\/www.sympy.org\/",
+  "organisation_description": "SymPy is a Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible. SymPy is written entirely in Python."
+ },
+ {
+  "id": "93",
+  "organisation_name": "Synfig",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/synfig",
+  "organisation_tag": "Open-source 2D animation software",
+  "organisation_technologies": "python, c++, gtk, gtkmm",
+  "organisation_topics": "2d\/3d graphics, animation, vector graphics",
+  "organisation_website": "https:\/\/synfig.org",
+  "organisation_description": "Synfig is a 2D open-source animation software. It is capable to produce vector artwork and also can work with bitmap images.\n\nThe main concept of Synfig is \"tweening\" - you can define object positions or shapes of vector objects at certain points of time and program will interpolate in-between frames automatically. You can also use bones to control your animation on higher level.\n\nWith Synfig you can easily create motion graphics and cut-out animations for product explanation videos, tutorial videos, and more."
+ },
+ {
+  "id": "94",
+  "organisation_name": "TARDIS RT Collaboration",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/tardis-rt-collaboration",
+  "organisation_tag": "Exploring supernovae made easy",
+  "organisation_technologies": "python, numba, numpy, jupyter, pandas",
+  "organisation_topics": "visualization, big data, simulation, astrophysics",
+  "organisation_website": "https:\/\/tardis-sn.github.io",
+  "organisation_description": "TARDIS is a tool that creates synthetic observations (spectra) for exploding stars (supernovae). \n\nA supernova marks the brilliant death throes of a star, during which it outshines its entire galaxy. Through their explosive stellar death, supernovae enrich the Universe with new elements necessary for the formation of planets and life as we know it. From the iron in your blood to the silicon in your laptop, supernovae are responsible for producing many important elements from the primordial hydrogen and helium left over from the Big Bang.\n\nTARDIS provides a link between theory and observations: by creating synthetic spectra from theoretical assumptions and comparing these to observations, we can both interpret data and test models for why, when and how supernova explosions occur.\nWe, the community around TARDIS, are interested in combining astronomy, computer science, statistics and modern software design to build a tool that is useful both in research and teaching alike (with supporting documentation that would, in theory, allow anyone to recreate the project from scratch). Please join us on https:\/\/gitter.im\/tardis-sn\/gsoc."
+ },
+ {
+  "id": "95",
+  "organisation_name": "The ENIGMA Team",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-enigma-team",
+  "organisation_tag": "A free rapid game development environment.",
+  "organisation_technologies": "opengl, c++, qt5",
+  "organisation_topics": "graphics, game development, compiler, programming, game design",
+  "organisation_website": "https:\/\/enigma-dev.org",
+  "organisation_description": "ENIGMA is a game development environment comprising an idE, Compiler, and Game Engine. \n\nENIGMA is meant to be simple to learn and even simpler to work with. ENIGMA makes it refreshingly easy to stand up simple games. Recreating Atari Pong is a job for a handful of minutes. This is true in many modern engines, but unlike most, ENIGMA scales well to positively enormous games, as the engine (and ultimately, all user code) is written in C++.\n\nUsers write code in EDL, a language similar to JavaScript (or, more to the point, Game Maker Language) which compiles intermediately to C++. The emitted C++ is optimized based on the game's asset usage, and the result is a C++ game project which can be built by any C++ compiler (we target Clang and GCC). This offers massive portability and library support.\n\nThe compiler bundles a C++ parser which crawls the engine for definitions. This theoretically allows users to access library routines directly (e.g. OpenGL), though we recommend against this for portability reasons. This framework is another good surface for GSoC projects, though it's more advanced, so we've left it unexplored in our project ideas list.\n\nTo really understand the utility of the project, consider a typical game, which uses \"rooms\" (a type of ENIGMA asset) to lay out instances of \"objects\" (game entity classes) visually. The objects contain code for specific events (such as step, draw, or keyboard) which can call out to scripts or begin timelines or start movement on paths. ENIGMA's compiler translates this to C++ and builds it against the engine after parsing both to learn how to integrate them."
+ },
+ {
+  "id": "96",
+  "organisation_name": "The FreeBSD Project",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-freebsd-project",
+  "organisation_tag": "FreeBSD: An OS for servers to embedded systems",
+  "organisation_technologies": "c, llvm, assembly, make, POSIX shell",
+  "organisation_topics": "virtualization, operating system, Embedded System",
+  "organisation_website": "https:\/\/www.freebsd.org\/",
+  "organisation_description": "FreeBSD is an advanced operating system for server, desktop, and embedded computer platforms.  It offers advanced networking, impressive security features, and world class performance.  It is used by some of the world's busiest web sites as well as embedded networking and storage devices.  FreeBSD source code is the foundation for the PlayStation 5, Junos, the operating system used by Juniper routers to provide the backbone of the Internet, and was the starting point for the core of Apple's OS X (now MacOS).  FreeBSD also powers the servers Netflix uses to stream terabits of video every second.  It is possible that you are using FreeBSD right now without even realizing it.\n\nThe FreeBSD Project began nearly 30 years ago in 1993, but is based on work from the Berkeley Computer Systems Research Group dating back to 1978.  Over those years the code base has gone through continuous development, improvement, and optimization.  It offers a complete operating system from which students can choose to work on topics in the kernel or userland.  In addition to producing an operating system, FreeBSD has incubated the development of software components used by other open source projects including bsnmp, jemalloc, libarchive, and OpenPAM.\n\nFreeBSD has an active mentoring program to welcome new developers into our community.  There are currently over 300 developers with write access to our repositories and many more contributors.  Many of our past GSoC students have gone on to become FreeBSD developers.  We communicate with one another in the many mailing lists, forums, blogs, IRC channels, and user groups all listed on our main website."
+ },
+ {
+  "id": "97",
+  "organisation_name": "The Honeynet Project",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-honeynet-project",
+  "organisation_tag": "Honeypots and Threat Intelligence R&D",
+  "organisation_technologies": "python, javascript, django, go, docker",
+  "organisation_topics": "honeypots, malware analysis, Threat Intelligence",
+  "organisation_website": "https:\/\/honeynet.org",
+  "organisation_description": "The Honeynet Project is a leading international 501c3 non-profit security research organization, dedicated to investigating the latest attacks and developing open source security tools to improve Internet security. With Chapters around the world, our volunteers have contributed to fight against malware (such as Conficker), discovering new attacks and creating security tools used by businesses and government agencies all over the world.\n\nThe Honeynet Project uses GSoC as a incubator for new R&D projects, and to recruit active new members."
+ },
+ {
+  "id": "98",
+  "organisation_name": "The JPF team",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-jpf-team",
+  "organisation_tag": "JPF is a special JVM for software verification",
+  "organisation_technologies": "android, java, distributed systems, jvm, smt solvers",
+  "organisation_topics": "model checking, symbolic execution, verification of concurrent systems, program analysis, test input generation",
+  "organisation_website": "https:\/\/github.com\/javapathfinder\/jpf-core\/wiki",
+  "organisation_description": "The Java Pathfinder (JPF) project was initially conceived and developed at NASA Ames Research Center in 1999. JPF was open sourced in April 2005 as one of the first ongoing NASA development projects to date, and it is now released under the Apache license, 2.0. JPF is an extensible Java virtual machine written in Java itself. It is used to create a variety of verification and debugging tools, ranging from software model checkers to test case generators using symbolic execution. JPF is a research platform and a production tool at the same time. Although JPF has major contributions from companies and government agencies, our main user community is academic - there are ongoing collaborations with more than 20 universities worldwide. The JPF team for GSoC 2023 includes researchers from NASA Ames Research Center, KTH Royal Institute of Technology - Sweden, York University - Canada, Brigham Young University, Carnegie Mellon University, University of Minnesota, Charles University - Czech Republic, and National University of Singapore.\n\nJPF is designed to be highly extensible. There are well-defined extension mechanisms, directory structures and build procedures, which keep the core relatively stable and provide suitable, well separated testbeds for new ideas and alternative implementations. As a consequence, we host a number of such extension projects on our own, public JPF server, together with a Wiki that provides a central location for learning about, obtaining, and contributing to JPF.\n\nJPF has been used for a variety of application domains and research topics such as verification of multi-threaded applications, graphical user interfaces, networking, and distributed applications. In addition to its continued presence in academia, JPF has matured enough to support verification of production code and frameworks such as Android. JPF is constantly being extended with support for verification of new types of correctness properties and for new types of application domains."
+ },
+ {
+  "id": "99",
+  "organisation_name": "The Julia Language",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-julia-language",
+  "organisation_tag": "A fresh approach to technical computing",
+  "organisation_technologies": "machine learning, julia, data science, compilers, garbage-collection",
+  "organisation_topics": "math, machine learning, science, data science, graphs",
+  "organisation_website": "https:\/\/julialang.org",
+  "organisation_description": "The Julia Language is an open-source, high level, and dynamic language built to be easy to use like Python while having speed near C++. As an umbrella organization, we house projects related to core Julia (the language) as well as packages from the broader Julia ecosystem."
+ },
+ {
+  "id": "100",
+  "organisation_name": "The Linux Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-linux-foundation",
+  "organisation_tag": "Non-profit consortium fostering growth of Linux",
+  "organisation_technologies": "c, linux, c++, cups, ipp",
+  "organisation_topics": "kernel, automotive, printing, iio, zephyr",
+  "organisation_website": "http:\/\/www.linuxfoundation.org\/",
+  "organisation_description": "The Linux Foundation is a non-profit consortium dedicated to fostering the growth of Linux. Founded in 2007 as a merger of the former Free Standards Group (FSG) and the former Open Source Developer Lab (OSDL), the LF sponsors the work of Linux creator Linus Torvalds and is supported by leading Linux and open source companies and developers from around the world. The Linux Foundation promotes, protects and standardizes Linux by providing unified resources and services needed for open source to successfully compete with closed platforms. For more see our [About page](https:\/\/www.linuxfoundation.org\/about\/). All software produced by us is free software published under OSI-approved licenses. See project ideas page for the license used by each project."
+ },
+ {
+  "id": "101",
+  "organisation_name": "The Mifos Initiative",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-mifos-initiative",
+  "organisation_tag": "End Poverty One Line of Code at a Time",
+  "organisation_technologies": "android, java, kotlin, spring, angular",
+  "organisation_topics": "cloud, ai, fintech, financial inclusion, mobile banking",
+  "organisation_website": "https:\/\/mifos.org",
+  "organisation_description": "We are a global 501(c)3 fintech non-profit leveraging the cloud, mobile & open source community to democratize financial services worldwide and digitally transform the world’s 3 billion poor and underbanked. Mifos has pioneered open source banking technology for the past fifteen years transforming the entire sector at each major stage of evolution from microfinance to financial inclusion to digital financial services and now embedded finance. Mifos guides the open source community, steers the roadmap, and stewards the vibrant ecosystem of organizations building solutions on its open platform. Our building blocks for banking, recognized as digital public goods, make core banking commoditized infrastructure, empowering any organization, anywhere to embed any financial service to any customer via any channel. These building blocks provide the common functionalities for creating customers, managing wallets, savings and loan accounts, orchestrating payments, and  maintaining the financial ledger & reports. More than 25 million clients are reached by 500+ financial institutions across 41 countries using solutions powered by our APIs."
+ },
+ {
+  "id": "102",
+  "organisation_name": "The NetBSD Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-netbsd-foundation",
+  "organisation_tag": "Of course it runs NetBSD",
+  "organisation_technologies": "c, shell script, make, unix, bsd",
+  "organisation_topics": "kernel, packaging, userland, unix, bsd",
+  "organisation_website": "https:\/\/www.NetBSD.org\/",
+  "organisation_description": "NetBSD is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices. Its clean design and advanced features make it excellent for use in both production and research environments, and the source code is freely available under a business-friendly license. NetBSD is developed and supported by a large and vivid international community. Many applications are readily available through pkgsrc, the NetBSD Packages Collection."
+ },
+ {
+  "id": "103",
+  "organisation_name": "The ns-3 Network Simulator Project",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-ns-3-network-simulator-project",
+  "organisation_tag": "ns-3 is a simulation tool for computer networks.",
+  "organisation_technologies": "python, django, c++",
+  "organisation_topics": "computer networking, network simulation",
+  "organisation_website": "https:\/\/www.nsnam.org",
+  "organisation_description": "Are you interested in contributing to a widely-used performance evaluation tool for computer networking research? [ns-3](https:\/\/www.nsnam.org) is a *discrete-event, packet-level network simulator* with an emphasis on networking research and education. Users of ns-3 can construct simulations of computer networks using models of traffic generators, protocols such as TCP\/IP, and devices and channels such as Wi-Fi and LTE, and analyze or visualize the results. Simulation plays a vital role in the research and education process, because of the ability for simulations to obtain reproducible results (particularly for wireless protocol design), scale to large networks, and study systems that have not yet been implemented. A particular emphasis in ns-3 is a high degree of realism in the models (including frameworks for using real application and kernel code) and integration of the tool with virtual machine environments and testbeds. Very large scale simulations are possible; simulations of hundreds of millions of nodes have been published.  ns-3 has been in development since 2005 and has been making regular releases since June 2008.  The simulator is written in C++, with bindings for Python scripting, and uses the CMake build system.  We use a GPLv2 licensing model and heavily use mailing lists and Zulip chat, but typically not other social media."
+ },
+ {
+  "id": "104",
+  "organisation_name": "The Palisadoes Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-palisadoes-foundation",
+  "organisation_tag": "Social media and member management for non-profits",
+  "organisation_technologies": "flutter, typescript, MERN",
+  "organisation_topics": "web, api, database, ai, mobile",
+  "organisation_website": "https:\/\/www.palisadoes.org",
+  "organisation_description": "The Palisadoes Foundation’s open-source software projects support community groups in organizing their daily activities. A significant proportion of our software contributions come from university students studying software engineering. Participants often come from under-served communities or geographic areas and are sponsored through our various programs. This prepares them for the competitive realities of the working world.\n\nLife started for us in 2016 when a group of expatriate Jamaicans wanted to assist development of new and existing information technologies for the island’s social good.  We knew academic and student leadership wanted greater practical exposure to the latest technology. In response, our pilot Calico program for Jamaican universities was created with the goal of addressing the issues graduates would face when employed.\n\nAfter five years of success, members of the Jamaican diaspora suggested we expand our service area to be global. They saw similar needs in their own under-served communities where the digital divide is very visible and thought our experience in the developing world would be useful.\n\nSince 2019 we have focused on creating a mobile app to help community organizations like ourselves better manage their membership. We saw the need for a social media component to keep in contact with our volunteers. We also felt these organizations often faced challenges with the project management of events and keeping track of volunteer abilities, roles and responsibilities.\n\nWe want to make the app useful for any community-based organization such as clubs, small religious institutions, neighborhood groups, and volunteer associations. We also want to see how the open source software could be installed as a multi-tenant, multi-site cloud hosted service as many of these organizations often don’t have sufficient IT skills to do so independently. We hope that our contributors will help us achieve this goal year."
+ },
+ {
+  "id": "105",
+  "organisation_name": "The Tor Project",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/the-tor-project",
+  "organisation_tag": "Defend yourself against tracking and surveillance.",
+  "organisation_technologies": "c, python, web, rust",
+  "organisation_topics": "security, privacy, anti-censorship, Human Rights, Surveillance",
+  "organisation_website": "https:\/\/www.torproject.org\/",
+  "organisation_description": "We believe everyone should be able to explore the internet with privacy. We are the Tor Project, a 501(c)(3) US nonprofit. We advance human rights and defend your privacy online through free software and open networks."
+ },
+ {
+  "id": "106",
+  "organisation_name": "UC OSPO",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/uc-ospo",
+  "organisation_tag": "Amplifying Research Impact through Open Source",
+  "organisation_technologies": "python, c\/c++, visualization, VLSI, ros\/gazebo",
+  "organisation_topics": "hardware, data science, reproducibility, storage systems, data management",
+  "organisation_website": "https:\/\/ospo.ucsc.edu\/osre",
+  "organisation_description": "The UC Open Source Program Office (OSPO) supports open source work throughout the University of California system. Beginning in 2022, the UC OSPO took over the programmatic responsibilities of the UCSC Center for Research in Open Source Software (CROSS), including mentorship activities such as GSoC. Following in line with the earlier work of CROSS, the OSPO creates partnerships with stakeholders within and outside the UC system in order to help students learn from open source communities, support scientists in using open source to accelerate research efforts, and connect students and scientists with sponsors from industry, government, and foundations. The OSPO helps bridge the gap between academic research and successful open source projects by promoting innovative projects maintained by UC-affiliated scientists and researchers. We support the transfer of cutting-edge technology resulting from UC-originating research to industry via successful open source projects. Due to the multi-campus nature of our current efforts, the projects we support and promote cover a wide range of topics and technologies - including:\n\n- Open Source Hardware\n- Storage Systems and Devices\n- System Architecture\n- Autonomous Vehicle Systems\n- Data Management\n- Data Analysis\n- Visualization\n- Reproducibility\n\nAll of our mentors are UC-affiliated scientists and researchers who are actively involved in one or more of these open source projects."
+ },
+ {
+  "id": "107",
+  "organisation_name": "Unikraft",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/unikraft",
+  "organisation_tag": "A Fast and Secure Unikernel SDK",
+  "organisation_technologies": "c, xen, golang, kvm, assembly language",
+  "organisation_topics": "virtualization, cloud, software reuse, software configurability",
+  "organisation_website": "https:\/\/unikraft.org\/",
+  "organisation_description": "Unikraft is a fast, secure and open-source Unikernel Development Kit.\n\nBy tailoring the operating system, libraries and configuration to the particular needs of your application, it vastly reduces virtual machine and container image sizes to a few KBs, provides blazing performance, and drastically cuts down your software stack’s attack surface.\n\nUnikraft is developed in the spirit of open source: public discussions on Discord, open source licensing model using BSD-3-Clause, public development and management on GitHub.\n\nIt does so in the context of a vibrant community consisting of highly skilled software engineers, researchers, teachers, students and hobbyists. Periodic meetings, hackathons and a consistent presence in open source events are central to the well functioning of the community.\n\nWe use guidelines for development and maintenance to ensure the creation of high quality code.\n\nPublic releases are planned to happen once every two months. In general, we aim for a public release to happen at the last Monday of each odd month (January, March, May, etc.)\n\nWe welcome contributors and users on Discord and on GitHub. If you are looking for a fun technical project in the area of operating systems, virtualization, come aboard on Discord."
+ },
+ {
+  "id": "108",
+  "organisation_name": "VideoLAN",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/videolan",
+  "organisation_tag": "Open Source Multimedia for everyone!",
+  "organisation_technologies": "c, c++, qt, assembly, video",
+  "organisation_topics": "audio, streaming, video, codecs, media database",
+  "organisation_website": "https:\/\/www.videolan.org",
+  "organisation_description": "The VideoLAN project is led by and composed of a team of volunteers who believe in the power of open source to rock the multimedia world. We produce multimedia software notably the famous VLC media player as well as designated libraries and codecs."
+ },
+ {
+  "id": "109",
+  "organisation_name": "Wagtail",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/wagtail",
+  "organisation_tag": "The powerful Python CMS for modern websites",
+  "organisation_technologies": "python, javascript, django",
+  "organisation_topics": "web, accessibility, cms",
+  "organisation_website": "https:\/\/wagtail.org\/",
+  "organisation_description": "We build Wagtail, a popular content management system. It's built on Python, by an active and engaged open source community, which has grown rapidly since Wagtail's release in 2014. Wagtail is available in over 40 languages, and used by some of the world's best-known organizations, including NASA, Google, Mozilla, MIT, and the UK's National Health Service, as well as museums, universities, non-profits, governments, banks, studios, restaurants, startups and bloggers around the world."
+ },
+ {
+  "id": "110",
+  "organisation_name": "Wikimedia Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/wikimedia-foundation",
+  "organisation_tag": "Brings free educational content to the world",
+  "organisation_technologies": "python, javascript, html, php, css",
+  "organisation_topics": "semantic web, wikipedia, wikimedia, mediawiki, i18n",
+  "organisation_website": "http:\/\/wikimediafoundation.org\/",
+  "organisation_description": "Wikimedia strives to bring about a world in which every single human being can freely share in the sum of all knowledge; through various projects, chapters, and the support structure of the non-profit Wikimedia Foundation. Wikimedia officially supports 13 projects, including Wikipedia, the seventh most popular site on the internet. Wikipedia receives over 20 billion global page views every month and is available in over 300 languages. The tech behind it ensures that our projects are fast, reliable, and open to all. We design and build the open-source technology that powers Wikimedia projects from hosting Wikipedia to creating edit-checking artificial intelligence (AI). Community volunteers and Foundation technologists collaborate on MediaWiki, which makes sharing free knowledge possible. Read more about Wikimedia on our homepage."
+ },
+ {
+  "id": "111",
+  "organisation_name": "X.Org Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/xorg-foundation",
+  "organisation_tag": "X Window System and related projects (Mesa, DRI, Wayland, etc.)",
+  "organisation_technologies": "opengl, vulkan, x11, wayland, DRM",
+  "organisation_topics": "graphics, kernel, drivers",
+  "organisation_website": "https:\/\/www.x.org",
+  "organisation_description": "The X.Org Foundation (or X.Org for short) is a foundation chartered to develop and execute effective strategies that provide worldwide stewardship and encouragement of the X Window System and related projects. Indeed, X.Org is much broader than just the X Window System. Under the umbrella of the X.Org Foundation can be found Linux's DRM subsystem (10% of the size of Linux), Mesa (open source 3D and video-decoding acceleration for AMD, Intel, NVidIA,...), and Wayland. X.org's technologies underpin much of today's computing environment, and expertise in it is in high demand worldwide.\n\nToday, as the result of more than 20 years of work by teams of leading open source developers, most of the graphical user interfaces for Unix and Linux systems rely on X.Org. On top of the X-Server-based systems, this includes Android- and ChromeOS-based devices, and Wayland-based systems (Sailfish OS, Gnome, ...). X.Org is responsible for the design of the X libraries which interface with application, the acceleration architectures used for graphics, and the graphics and input drivers. In particular, it has been at the center of the recent restructuring of the Linux graphics driver stack.\n\nCome help us make the future more open!"
+ },
+ {
+  "id": "112",
+  "organisation_name": "XMPP Standards Foundation",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/xmpp-standards-foundation",
+  "organisation_tag": "XSF develops an open-standard messaging protocol",
+  "organisation_technologies": "gtk, vala, xmpp, swift, Objective C",
+  "organisation_topics": "instant messaging, chat, WebRTC, Jingle, Real-Time Communication",
+  "organisation_website": "https:\/\/xmpp.org\/",
+  "organisation_description": "The XMPP Standards Foundation (XSF) is an independent, nonprofit standards development organization with the mission to build an open, secure, feature-rich, federated infrastructure for real-time communication and collaboration over the Internet.\n\nWe seek to achieve that goal by developing the world’s best open protocols for instant messaging, presence, and other forms of near-real-time communication, based on the IETF’s Extensible Messaging and Presence Protocol (XMPP). By “best” we mean simplest, most extensible, most powerful, most secure. Moreover, we value freedom, openness, and good technical design."
+ },
+ {
+  "id": "113",
+  "organisation_name": "XWiki",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/xwiki",
+  "organisation_tag": "The Advanced Open Source Enterprise Wiki",
+  "organisation_technologies": "javascript, java, html5, css3, velocity",
+  "organisation_topics": "web development, wiki, platform, web applications, structured data",
+  "organisation_website": "https:\/\/www.xwiki.org\/",
+  "organisation_description": "XWiki is an open source software development platform based on the wiki principles, under the LGPL license. In addition to being a full-featured wiki, it is also a second generation wiki allowing effortless development of collaborative web applications. On top of this platform a plethora of applications are developed, targeted mainly on aiding enterprise-level needs.\n\nXWiki has a vibrant community of developers and users, consisting of individual users as well as organizations around the world that are using XWiki for their own Communities or Intranets.\n\nWithin XWiki, the development involves several levels: server-side platform programming in Java with Servlet technologies, server-side application development in Velocity, Groovy, and client-side development in JavaScript, CSS and HTML.\n\nWe propose projects that cover server-side Servlet programming and client-side rich application development, together with usability and performance improvements."
+ },
+ {
+  "id": "114",
+  "organisation_name": "Zulip",
+  "organisation_href": "https:\/\/summerofcode.withgoogle.com\/archive\/2023\/organizations\/zulip",
+  "organisation_tag": "Modern team chat app designed for efficiency.",
+  "organisation_technologies": "python, django, css, typescript, electron",
+  "organisation_topics": "great developer tooling, visual design, teaching quality codebase, team chat, integrations",
+  "organisation_website": "https:\/\/zulip.com\/",
+  "organisation_description": "Zulip is the only modern team chat app that is ideal for both live and asynchronous conversations. Zulip has a web app, a cross-platform mobile app for iOS and Android, cross-platform desktop and terminal apps, and over 100 native integrations. The entire Zulip codebase is 100% open source.\n\nZulip has been gaining in popularity since it was released as open source software in late 2015, with code contributions from over 1000 people from all around the world. Thousands of people use Zulip every day, and your work on Zulip will have meaningful impact on their experience.\n\nAs an organization, we value engaged, responsive mentorship and making sure our product quality is extremely high. You can expect to receive disciplined code reviews by highly experienced engineers. Since Zulip is a team chat product, your GSoC experience with the Zulip project will be highly interactive.\n\nAs part of our commitment to mentorship, Zulip has over 160,000 words of documentation for developers, much of it designed to explain not just how Zulip works, but why Zulip works the way that it does.\n\nTo learn more about the experience of doing GSoC with Zulip, check out our blog post: https:\/\/blog.zulip.com\/2021\/09\/30\/google-summer-of-code-2021\/."
+ }
+]
+}
